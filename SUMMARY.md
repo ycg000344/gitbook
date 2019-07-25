@@ -10,7 +10,7 @@
   * [sentinel](docker/sentinel.md)
   * [nacos](docker/nacos.md)
   
-* [算法](algo/README.md)
+* [算法与数据结构](algo/README.md)
 
   * [数组](algo/array.md)
   * [链表](algo/linked.md)
