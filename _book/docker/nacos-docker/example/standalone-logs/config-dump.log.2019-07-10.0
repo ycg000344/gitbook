@@ -1,0 +1,22 @@
+2019-07-10 16:01:34,668 WARN [dump-ignore] ignore to save cache file. groupKey=cloud-auth+DEFAULT_GROUP, md5=b2c7342f713b791d3ea5b9c1f9ae309f, lastModifiedOld=1562744123735, lastModifiedNew=1562745694554
+
+2019-07-10 16:01:43,903 WARN [dump-ignore] ignore to save cache file. groupKey=cloud-auth+DEFAULT_GROUP, md5=b2c7342f713b791d3ea5b9c1f9ae309f, lastModifiedOld=1562744123735, lastModifiedNew=1562745703768
+
+2019-07-10 16:31:15,736 WARN [dump-ignore] ignore to save cache file. groupKey=cloud-admin+DEFAULT_GROUP, md5=d71f532381792d8917ceb58cf0f3ffe7, lastModifiedOld=1562666896000, lastModifiedNew=1562747475580
+
+2019-07-10 17:44:44,403 INFO [dump-all-ok] cloud-admin.properties+DEFAULT_GROUP, 1562749864000, length=2628, md5=d71f532381792d8917ceb58cf0f3ffe7
+
+2019-07-10 17:44:44,405 INFO [dump-all-ok] cloud-auth.properties+DEFAULT_GROUP, 1562749894000, length=2741, md5=b2c7342f713b791d3ea5b9c1f9ae309f
+
+2019-07-10 17:44:44,406 INFO [dump-all-ok] cloud-classroom-course.properties+DEFAULT_GROUP, 1562749936000, length=1638, md5=d44021c81c5e9ad3ce907388bd8eaba4
+
+2019-07-10 17:44:44,409 INFO [dump-all-ok] cloud-classroom-essearch.properties+DEFAULT_GROUP, 1562749963000, length=903, md5=22f10ee9395082665919a7c9826e5bf8
+
+2019-07-10 17:44:44,410 INFO [dump-all-ok] cloud-classroom-order.properties+DEFAULT_GROUP, 1562749981000, length=1509, md5=5eab911369d631a3ceda57d53d389e8d
+
+2019-07-10 17:44:44,412 INFO [dump-all-ok] cloud-gateway-dev.properties+DEFAULT_GROUP, 1562750001000, length=2987, md5=3fdd01970936c3a5be8e82ab4e4c87eb
+
+2019-07-10 17:44:44,412 INFO [dump-all-ok] cloud-oss.properties+DEFAULT_GROUP, 1562750021000, length=499, md5=39dc0afc4c415cb40279ec1d2d046cd8
+
+2019-07-10 17:44:44,414 INFO [dump-all-ok] spring-boot-admin.properties+DEFAULT_GROUP, 1562750042000, length=565, md5=538f407cb8ba65ce17dde70e5dc56484
+

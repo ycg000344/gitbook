@@ -1,0 +1,6 @@
+2019-07-10 17:44:43,579 WARN [master-db] jdbc:mysql://192.168.2.242:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-10 17:44:44,228 WARN useAddressServer:true
+
+2019-07-10 17:44:44,334 WARN isQuickStart:false
+

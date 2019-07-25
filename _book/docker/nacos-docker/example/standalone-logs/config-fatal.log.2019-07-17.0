@@ -1,0 +1,20 @@
+2019-07-17 10:52:10,760 WARN [master-db] jdbc:mysql://192.168.2.242:3307/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-17 10:52:28,660 WARN [master-db] jdbc:mysql://192.168.2.242:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-17 10:59:33,897 ERROR [db-error] master db 192.168.2.242 down.
+
+2019-07-17 10:59:34,356 WARN [master-db] jdbc:mysql://192.168.2.242:3307/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-17 10:59:44,730 WARN [master-db] jdbc:mysql://192.168.2.242:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-17 11:03:27,096 ERROR [db-error] master db 192.168.2.242 down.
+
+2019-07-17 13:29:00,709 WARN [master-db] jdbc:mysql://192.168.2.242:3306/nacos_config?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
+2019-07-17 13:29:07,758 ERROR [db-error] slave db 192.168.2.242 down.
+
+2019-07-17 13:29:08,227 WARN useAddressServer:true
+
+2019-07-17 13:29:08,385 WARN isQuickStart:false
+

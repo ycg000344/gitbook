@@ -1,0 +1,701 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>二分查找 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="skiplist.html" />
+    
+    
+    <link rel="prev" href="sort.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../docker/">
+            
+                <a href="../docker/">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../docker/redis.html">
+            
+                <a href="../docker/redis.html">
+            
+                    
+                    redis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../docker/mysql.html">
+            
+                <a href="../docker/mysql.html">
+            
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../docker/rabbitmq.html">
+            
+                <a href="../docker/rabbitmq.html">
+            
+                    
+                    rabbitmq
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../docker/sentinel.html">
+            
+                <a href="../docker/sentinel.html">
+            
+                    
+                    sentinel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../docker/nacos.html">
+            
+                <a href="../docker/nacos.html">
+            
+                    
+                    nacos
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    算法
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="array.html">
+            
+                <a href="array.html">
+            
+                    
+                    数组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="linked.html">
+            
+                <a href="linked.html">
+            
+                    
+                    链表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="stack.html">
+            
+                <a href="stack.html">
+            
+                    
+                    栈
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="queue.html">
+            
+                <a href="queue.html">
+            
+                    
+                    队列
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="recursive.html">
+            
+                <a href="recursive.html">
+            
+                    
+                    递归
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="sort.html">
+            
+                <a href="sort.html">
+            
+                    
+                    排序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.7" data-path="binarysearch.html">
+            
+                <a href="binarysearch.html">
+            
+                    
+                    二分查找
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="skiplist.html">
+            
+                <a href="skiplist.html">
+            
+                    
+                    跳表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="hashtable.html">
+            
+                <a href="hashtable.html">
+            
+                    
+                    散列表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="tree.html">
+            
+                <a href="tree.html">
+            
+                    
+                    树
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="heap.html">
+            
+                <a href="heap.html">
+            
+                    
+                    堆
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="graph.html">
+            
+                <a href="graph.html">
+            
+                    
+                    图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="stringmatch.html">
+            
+                <a href="stringmatch.html">
+            
+                    
+                    字符串匹配
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../highperformance/">
+            
+                <a href="../highperformance/">
+            
+                    
+                    Java 高性能编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../highperformance/java.html">
+            
+                <a href="../highperformance/java.html">
+            
+                    
+                    Java 基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../highperformance/threadsafe.html">
+            
+                <a href="../highperformance/threadsafe.html">
+            
+                    
+                    线程安全问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../highperformance/juc.html">
+            
+                <a href="../highperformance/juc.html">
+            
+                    
+                    J.U.C并发编程包
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >二分查找</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x4E8C;&#x5206;&#x67E5;&#x627E;">&#x4E8C;&#x5206;&#x67E5;&#x627E;</h1>
+<h2 id="&#x6982;&#x8FF0;">&#x6982;&#x8FF0;</h2>
+<p>&#x4E8C;&#x5206;&#x67E5;&#x627E;&#x9488;&#x5BF9;&#x7684;&#x662F;&#x4E00;&#x4E2A;&#x6709;&#x5E8F;&#x7684;&#x6570;&#x636E;&#x96C6;&#x5408;&#xFF0C;&#x67E5;&#x627E;&#x601D;&#x60F3;&#x6709;&#x70B9;&#x7C7B;&#x4F3C;&#x5206;&#x6CBB;&#x601D;&#x60F3;&#x3002;&#x6BCF;&#x6B21;&#x90FD;&#x901A;&#x8FC7;&#x8DDF;&#x533A;&#x95F4;&#x7684;&#x4E2D;&#x95F4;&#x5143;&#x7D20;&#x5BF9;&#x6BD4;&#xFF0C;&#x5C06;&#x5F85;&#x67E5;&#x627E;&#x7684;&#x533A;&#x95F4;&#x7F29;&#x5C0F;&#x4E3A;&#x4E4B;&#x524D;&#x7684;&#x4E00;&#x534A;&#xFF0C;&#x76F4;&#x5230;&#x627E;&#x5230;&#x8981;&#x67E5;&#x627E;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x6216;&#x8005;&#x533A;&#x95F4;&#x88AB;&#x7F29;&#x5C0F;&#x4E3A; 0</p>
+<p>&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x4E3A;&#xFF1A;O(logn)</p>
+<h1 id="code">CODE</h1>
+<h2 id="binarysearch">BinarySearch</h2>
+<pre><code class="lang-java"><span class="hljs-comment">/**
+ * &#x4E8C;&#x5206;&#x67E5;&#x627E;
+ */</span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">BinarySearch</span> </span>{
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        BinarySearch search = <span class="hljs-keyword">new</span> BinarySearch();
+        <span class="hljs-keyword">int</span>[] array = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]{<span class="hljs-number">1</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">7</span>, <span class="hljs-number">8</span>, <span class="hljs-number">8</span>, <span class="hljs-number">8</span>, <span class="hljs-number">8</span>, <span class="hljs-number">9</span>, <span class="hljs-number">11</span>, <span class="hljs-number">18</span>, <span class="hljs-number">19</span>};
+        <span class="hljs-keyword">int</span> first = search.bsearchFirstE(array, array.length, <span class="hljs-number">8</span>);
+        System.out.println(first);
+        <span class="hljs-keyword">int</span> last = search.bsearchLastE(array, array.length, <span class="hljs-number">8</span>);
+        System.out.println(last);
+        <span class="hljs-keyword">int</span>[] data = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[]{<span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">6</span>, <span class="hljs-number">7</span>, <span class="hljs-number">10</span>};
+        <span class="hljs-keyword">int</span> firstGE = search.bsearchFirstGE(data, data.length, <span class="hljs-number">6</span>);
+        System.out.println(firstGE);
+        <span class="hljs-keyword">int</span> lastLE = search.bsearchLastLE(data, data.length, <span class="hljs-number">6</span>);
+        System.out.println(lastLE);
+    }
+    <span class="hljs-comment">/**
+     * &#x4E8C;&#x5206;&#x67E5;&#x627E;
+     * &#x67E5;&#x627E;&#x7B2C;&#x4E00;&#x4E2A;&#x7B49;&#x4E8E;&#x7ED9;&#x5B9A;&#x503C;&#x7684;&#x4E0B;&#x6807;
+     *
+     * <span class="hljs-doctag">@param</span> array
+     * <span class="hljs-doctag">@param</span> length
+     * <span class="hljs-doctag">@param</span> value
+     * <span class="hljs-doctag">@return</span>
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchFirstE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">return</span> bsearchFirstE(array, <span class="hljs-number">0</span>, length - <span class="hljs-number">1</span>, value);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchFirstE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> low, <span class="hljs-keyword">int</span> high, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">if</span> (low &gt; high) {
+            <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+        }
+        <span class="hljs-keyword">int</span> mid = low + ((high - low) &gt;&gt; <span class="hljs-number">1</span>);
+        <span class="hljs-keyword">if</span> (value &gt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchFirstE(array, mid + <span class="hljs-number">1</span>, high, value);
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value &lt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchFirstE(array, low, mid - <span class="hljs-number">1</span>, value);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> (<span class="hljs-number">0</span> == mid || value != array[mid - <span class="hljs-number">1</span>]) {
+                <span class="hljs-keyword">return</span> mid;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> bsearchFirstE(array, low, mid - <span class="hljs-number">1</span>, value);
+            }
+        }
+    }
+    <span class="hljs-comment">/**
+     * &#x4E8C;&#x5206;&#x67E5;&#x627E;
+     * &#x67E5;&#x627E;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x7B49;&#x4E8E;&#x7ED9;&#x5B9A;&#x503C;&#x7684;&#x4E0B;&#x6807;
+     *
+     * <span class="hljs-doctag">@param</span> array
+     * <span class="hljs-doctag">@param</span> length
+     * <span class="hljs-doctag">@param</span> value
+     * <span class="hljs-doctag">@return</span>
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchLastE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">return</span> bsearchLastE(array, <span class="hljs-number">0</span>, length - <span class="hljs-number">1</span>, value);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchLastE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> low, <span class="hljs-keyword">int</span> high, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">if</span> (low &gt; high) {
+            <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+        }
+        <span class="hljs-keyword">int</span> mid = low + ((high - low) &gt;&gt; <span class="hljs-number">1</span>);
+        <span class="hljs-keyword">if</span> (value &gt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchLastE(array, mid + <span class="hljs-number">1</span>, high, value);
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (value &lt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchLastE(array, low, mid - <span class="hljs-number">1</span>, value);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> ((high == mid) || (value != array[mid + <span class="hljs-number">1</span>])) {
+                <span class="hljs-keyword">return</span> mid;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> bsearchLastE(array, mid + <span class="hljs-number">1</span>, high, value);
+            }
+        }
+    }
+    <span class="hljs-comment">/**
+     * &#x4E8C;&#x5206;&#x67E5;&#x627E;
+     * &#x67E5;&#x627E;&#x7B2C;&#x4E00;&#x4E2A;&#x5927;&#x4E8E;&#x7B49;&#x4E8E;&#x7ED9;&#x5B9A;&#x503C;&#x7684;&#x5143;&#x7D20;&#x7684;&#x4E0B;&#x6807;
+     *
+     * <span class="hljs-doctag">@param</span> array
+     * <span class="hljs-doctag">@param</span> length
+     * <span class="hljs-doctag">@param</span> value
+     * <span class="hljs-doctag">@return</span>
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchFirstGE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">return</span> bsearchFirstGE(array, <span class="hljs-number">0</span>, length - <span class="hljs-number">1</span>, value);
+
+    }
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchFirstGE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> low, <span class="hljs-keyword">int</span> high, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">if</span> (low &gt; high) {
+            <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+        }
+        <span class="hljs-keyword">int</span> mid = low + ((high - low) &gt;&gt; <span class="hljs-number">1</span>);
+        <span class="hljs-keyword">if</span> (value &lt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchFirstGE(array, low, mid - <span class="hljs-number">1</span>, value);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> (<span class="hljs-number">0</span> == mid || array[mid - <span class="hljs-number">1</span>] &lt; value) {
+                <span class="hljs-keyword">return</span> mid;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> bsearchFirstGE(array, low, mid - <span class="hljs-number">1</span>, value);
+            }
+        }
+    }
+    <span class="hljs-comment">/**
+     * &#x4E8C;&#x5206;&#x67E5;&#x627E;
+     * &#x67E5;&#x627E;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5C0F;&#x4E8E;&#x7B49;&#x4E8E;&#x7ED9;&#x5B9A;&#x503C;&#x7684;&#x5143;&#x7D20;&#x7684;&#x4E0B;&#x6807;
+     *
+     * <span class="hljs-doctag">@param</span> array
+     * <span class="hljs-doctag">@param</span> length
+     * <span class="hljs-doctag">@param</span> value
+     * <span class="hljs-doctag">@return</span>
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchLastLE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">return</span> bsearchLastLE(array, <span class="hljs-number">0</span>, length - <span class="hljs-number">1</span>, value);
+    }
+    <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">int</span> <span class="hljs-title">bsearchLastLE</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] array, <span class="hljs-keyword">int</span> low, <span class="hljs-keyword">int</span> high, <span class="hljs-keyword">int</span> value)</span> </span>{
+        <span class="hljs-keyword">if</span> (low &gt; high) {
+            <span class="hljs-keyword">return</span> -<span class="hljs-number">1</span>;
+        }
+        <span class="hljs-keyword">int</span> mid = low + ((high - low) &gt;&gt; <span class="hljs-number">1</span>);
+        <span class="hljs-keyword">if</span> (value &gt; array[mid]) {
+            <span class="hljs-keyword">return</span> bsearchLastLE(array, mid + <span class="hljs-number">1</span>, high, value);
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">if</span> (high == mid || array[mid + <span class="hljs-number">1</span>] &gt; value) {
+                <span class="hljs-keyword">return</span> mid;
+            } <span class="hljs-keyword">else</span> {
+                <span class="hljs-keyword">return</span> bsearchLastLE(array, mid + <span class="hljs-number">1</span>, high, value);
+            }
+        }
+    }
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="sort.html" class="navigation navigation-prev " aria-label="Previous page: 排序">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="skiplist.html" class="navigation navigation-next " aria-label="Next page: 跳表">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"二分查找","level":"1.3.7","depth":2,"next":{"title":"跳表","level":"1.3.8","depth":2,"path":"algo/skiplist.md","ref":"algo/skiplist.md","articles":[]},"previous":{"title":"排序","level":"1.3.6","depth":2,"path":"algo/sort.md","ref":"algo/sort.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"algo/binarysearch.md","mtime":"2019-07-25T12:24:34.551Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-07-25T12:36:32.840Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
