@@ -1,0 +1,864 @@
+2019-07-12 00:04:47,346 WARN clearConfigHistory start
+
+2019-07-12 00:04:49,836 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:04:49,873 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 00:14:47,383 WARN clearConfigHistory start
+
+2019-07-12 00:14:49,873 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:14:49,911 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 00:24:47,403 WARN clearConfigHistory start
+
+2019-07-12 00:24:49,912 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:24:49,949 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 00:34:47,424 WARN clearConfigHistory start
+
+2019-07-12 00:34:49,949 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:34:49,968 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 00:44:47,443 WARN clearConfigHistory start
+
+2019-07-12 00:44:49,969 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:44:50,003 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 00:54:47,461 WARN clearConfigHistory start
+
+2019-07-12 00:54:50,003 INFO [capacityManagement] start correct usage
+
+2019-07-12 00:54:50,037 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:04:47,481 WARN clearConfigHistory start
+
+2019-07-12 01:04:50,038 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:04:50,058 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:14:47,489 WARN clearConfigHistory start
+
+2019-07-12 01:14:50,058 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:14:50,092 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:24:47,501 WARN clearConfigHistory start
+
+2019-07-12 01:24:50,092 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:24:50,128 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:34:47,522 WARN clearConfigHistory start
+
+2019-07-12 01:34:50,129 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:34:50,162 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:44:47,546 WARN clearConfigHistory start
+
+2019-07-12 01:44:50,163 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:44:50,208 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 01:54:47,552 WARN clearConfigHistory start
+
+2019-07-12 01:54:50,209 INFO [capacityManagement] start correct usage
+
+2019-07-12 01:54:50,249 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:04:47,560 WARN clearConfigHistory start
+
+2019-07-12 02:04:50,249 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:04:50,284 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:14:47,579 WARN clearConfigHistory start
+
+2019-07-12 02:14:50,285 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:14:50,323 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:24:47,588 WARN clearConfigHistory start
+
+2019-07-12 02:24:50,324 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:24:50,361 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:34:47,601 WARN clearConfigHistory start
+
+2019-07-12 02:34:50,361 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:34:50,398 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:44:47,609 WARN clearConfigHistory start
+
+2019-07-12 02:44:50,399 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:44:50,435 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 02:54:47,629 WARN clearConfigHistory start
+
+2019-07-12 02:54:50,435 INFO [capacityManagement] start correct usage
+
+2019-07-12 02:54:50,469 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:04:47,639 WARN clearConfigHistory start
+
+2019-07-12 03:04:50,469 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:04:50,503 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:14:47,658 WARN clearConfigHistory start
+
+2019-07-12 03:14:50,503 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:14:50,519 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:24:47,677 WARN clearConfigHistory start
+
+2019-07-12 03:24:50,519 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:24:50,535 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:34:47,698 WARN clearConfigHistory start
+
+2019-07-12 03:34:50,535 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:34:50,572 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:44:47,718 WARN clearConfigHistory start
+
+2019-07-12 03:44:50,572 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:44:50,606 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 03:54:47,738 WARN clearConfigHistory start
+
+2019-07-12 03:54:50,607 INFO [capacityManagement] start correct usage
+
+2019-07-12 03:54:50,620 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:04:47,756 WARN clearConfigHistory start
+
+2019-07-12 04:04:50,620 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:04:50,657 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:14:47,775 WARN clearConfigHistory start
+
+2019-07-12 04:14:50,657 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:14:50,676 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:24:47,795 WARN clearConfigHistory start
+
+2019-07-12 04:24:50,676 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:24:50,708 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:34:47,808 WARN clearConfigHistory start
+
+2019-07-12 04:34:50,708 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:34:50,744 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:44:47,829 WARN clearConfigHistory start
+
+2019-07-12 04:44:50,744 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:44:50,781 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 04:54:47,849 WARN clearConfigHistory start
+
+2019-07-12 04:54:50,781 INFO [capacityManagement] start correct usage
+
+2019-07-12 04:54:50,820 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:04:47,856 WARN clearConfigHistory start
+
+2019-07-12 05:04:50,821 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:04:50,857 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:14:47,877 WARN clearConfigHistory start
+
+2019-07-12 05:14:50,858 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:14:50,894 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:24:47,897 WARN clearConfigHistory start
+
+2019-07-12 05:24:50,894 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:24:50,930 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:34:47,914 WARN clearConfigHistory start
+
+2019-07-12 05:34:50,931 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:34:50,967 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:44:47,934 WARN clearConfigHistory start
+
+2019-07-12 05:44:50,967 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:44:50,982 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 05:54:47,949 WARN clearConfigHistory start
+
+2019-07-12 05:54:50,983 INFO [capacityManagement] start correct usage
+
+2019-07-12 05:54:51,017 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:04:47,957 WARN clearConfigHistory start
+
+2019-07-12 06:04:51,017 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:04:51,051 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:14:47,979 WARN clearConfigHistory start
+
+2019-07-12 06:14:51,052 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:14:51,072 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:24:47,986 WARN clearConfigHistory start
+
+2019-07-12 06:24:51,072 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:24:51,106 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:34:48,004 WARN clearConfigHistory start
+
+2019-07-12 06:34:51,107 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:34:51,126 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:44:48,025 WARN clearConfigHistory start
+
+2019-07-12 06:44:51,127 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:44:51,161 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 06:54:48,044 WARN clearConfigHistory start
+
+2019-07-12 06:54:51,161 INFO [capacityManagement] start correct usage
+
+2019-07-12 06:54:51,173 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:04:48,065 WARN clearConfigHistory start
+
+2019-07-12 07:04:51,174 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:04:51,208 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:14:48,085 WARN clearConfigHistory start
+
+2019-07-12 07:14:51,208 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:14:51,225 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:24:48,104 WARN clearConfigHistory start
+
+2019-07-12 07:24:51,226 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:24:51,263 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:34:48,123 WARN clearConfigHistory start
+
+2019-07-12 07:34:51,264 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:34:51,295 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:44:48,143 WARN clearConfigHistory start
+
+2019-07-12 07:44:51,296 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:44:51,316 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 07:54:48,163 WARN clearConfigHistory start
+
+2019-07-12 07:54:51,317 INFO [capacityManagement] start correct usage
+
+2019-07-12 07:54:51,354 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:04:48,182 WARN clearConfigHistory start
+
+2019-07-12 08:04:51,354 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:04:51,369 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:14:48,195 WARN clearConfigHistory start
+
+2019-07-12 08:14:51,369 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:14:51,401 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:24:48,216 WARN clearConfigHistory start
+
+2019-07-12 08:24:51,401 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:24:51,436 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:34:48,235 WARN clearConfigHistory start
+
+2019-07-12 08:34:51,436 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:34:51,469 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:44:48,259 WARN clearConfigHistory start
+
+2019-07-12 08:44:51,469 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:44:51,506 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 08:54:48,277 WARN clearConfigHistory start
+
+2019-07-12 08:54:51,506 INFO [capacityManagement] start correct usage
+
+2019-07-12 08:54:51,544 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:04:48,298 WARN clearConfigHistory start
+
+2019-07-12 09:04:51,545 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:04:51,581 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:14:48,319 WARN clearConfigHistory start
+
+2019-07-12 09:14:51,582 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:14:51,616 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:24:48,326 WARN clearConfigHistory start
+
+2019-07-12 09:24:51,617 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:24:51,648 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:34:48,349 WARN clearConfigHistory start
+
+2019-07-12 09:34:51,648 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:34:51,666 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:44:48,355 WARN clearConfigHistory start
+
+2019-07-12 09:44:51,666 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:44:51,682 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 09:54:48,371 WARN clearConfigHistory start
+
+2019-07-12 09:54:51,683 INFO [capacityManagement] start correct usage
+
+2019-07-12 09:54:51,711 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:04:48,390 WARN clearConfigHistory start
+
+2019-07-12 10:04:51,711 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:04:51,745 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:14:48,405 WARN clearConfigHistory start
+
+2019-07-12 10:14:51,745 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:14:51,778 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:24:48,425 WARN clearConfigHistory start
+
+2019-07-12 10:24:51,778 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:24:51,813 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:34:48,436 WARN clearConfigHistory start
+
+2019-07-12 10:34:51,814 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:34:51,850 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:44:48,457 WARN clearConfigHistory start
+
+2019-07-12 10:44:51,851 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:44:51,886 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 10:54:48,477 WARN clearConfigHistory start
+
+2019-07-12 10:54:51,887 INFO [capacityManagement] start correct usage
+
+2019-07-12 10:54:51,903 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:04:48,495 WARN clearConfigHistory start
+
+2019-07-12 11:04:51,903 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:04:51,938 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:14:48,518 WARN clearConfigHistory start
+
+2019-07-12 11:14:51,938 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:14:51,976 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:24:48,540 WARN clearConfigHistory start
+
+2019-07-12 11:24:51,976 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:24:52,010 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:34:48,560 WARN clearConfigHistory start
+
+2019-07-12 11:34:52,010 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:34:52,042 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:44:48,581 WARN clearConfigHistory start
+
+2019-07-12 11:44:52,042 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:44:52,083 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 11:54:48,607 WARN clearConfigHistory start
+
+2019-07-12 11:54:52,083 INFO [capacityManagement] start correct usage
+
+2019-07-12 11:54:52,121 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:04:48,615 WARN clearConfigHistory start
+
+2019-07-12 12:04:52,121 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:04:52,161 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:14:48,634 WARN clearConfigHistory start
+
+2019-07-12 12:14:52,162 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:14:52,178 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:24:48,654 WARN clearConfigHistory start
+
+2019-07-12 12:24:52,179 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:24:52,208 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:34:48,673 WARN clearConfigHistory start
+
+2019-07-12 12:34:52,208 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:34:52,225 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:44:48,693 WARN clearConfigHistory start
+
+2019-07-12 12:44:52,225 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:44:52,241 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 12:54:48,713 WARN clearConfigHistory start
+
+2019-07-12 12:54:52,241 INFO [capacityManagement] start correct usage
+
+2019-07-12 12:54:52,278 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:04:48,734 WARN clearConfigHistory start
+
+2019-07-12 13:04:52,279 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:04:52,314 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:14:48,749 WARN clearConfigHistory start
+
+2019-07-12 13:14:52,315 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:14:52,345 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:24:48,769 WARN clearConfigHistory start
+
+2019-07-12 13:24:52,345 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:24:52,359 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:34:48,780 WARN clearConfigHistory start
+
+2019-07-12 13:34:52,359 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:34:52,376 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:44:48,793 WARN clearConfigHistory start
+
+2019-07-12 13:44:52,377 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:44:52,414 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 13:54:48,800 WARN clearConfigHistory start
+
+2019-07-12 13:54:52,414 INFO [capacityManagement] start correct usage
+
+2019-07-12 13:54:52,435 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:04:48,820 WARN clearConfigHistory start
+
+2019-07-12 14:04:52,436 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:04:52,473 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:14:48,834 WARN clearConfigHistory start
+
+2019-07-12 14:14:52,473 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:14:52,512 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:24:48,849 WARN clearConfigHistory start
+
+2019-07-12 14:24:52,513 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:24:52,548 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:34:48,858 WARN clearConfigHistory start
+
+2019-07-12 14:34:52,548 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:34:52,562 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:44:48,865 WARN clearConfigHistory start
+
+2019-07-12 14:44:52,562 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:44:52,576 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 14:54:48,884 WARN clearConfigHistory start
+
+2019-07-12 14:54:52,577 INFO [capacityManagement] start correct usage
+
+2019-07-12 14:54:52,592 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:04:48,902 WARN clearConfigHistory start
+
+2019-07-12 15:04:52,592 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:04:52,606 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:14:48,924 WARN clearConfigHistory start
+
+2019-07-12 15:14:52,607 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:14:52,620 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:24:48,945 WARN clearConfigHistory start
+
+2019-07-12 15:24:52,620 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:24:52,639 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:34:48,966 WARN clearConfigHistory start
+
+2019-07-12 15:34:52,639 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:34:52,673 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:44:48,985 WARN clearConfigHistory start
+
+2019-07-12 15:44:52,673 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:44:52,707 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 15:54:49,004 WARN clearConfigHistory start
+
+2019-07-12 15:54:52,707 INFO [capacityManagement] start correct usage
+
+2019-07-12 15:54:52,737 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:04:49,023 WARN clearConfigHistory start
+
+2019-07-12 16:04:52,738 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:04:52,768 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:14:49,041 WARN clearConfigHistory start
+
+2019-07-12 16:14:52,768 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:14:52,800 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:24:49,050 WARN clearConfigHistory start
+
+2019-07-12 16:24:52,801 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:24:52,847 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:34:49,070 WARN clearConfigHistory start
+
+2019-07-12 16:34:52,847 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:34:52,880 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:44:49,092 WARN clearConfigHistory start
+
+2019-07-12 16:44:52,881 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:44:52,917 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 16:54:49,113 WARN clearConfigHistory start
+
+2019-07-12 16:54:52,918 INFO [capacityManagement] start correct usage
+
+2019-07-12 16:54:52,949 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:04:49,132 WARN clearConfigHistory start
+
+2019-07-12 17:04:52,950 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:04:52,989 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:14:49,151 WARN clearConfigHistory start
+
+2019-07-12 17:14:52,989 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:14:53,009 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:24:49,158 WARN clearConfigHistory start
+
+2019-07-12 17:24:53,009 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:24:53,042 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:34:49,165 WARN clearConfigHistory start
+
+2019-07-12 17:34:53,042 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:34:53,078 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:44:49,184 WARN clearConfigHistory start
+
+2019-07-12 17:44:53,079 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:44:53,114 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 17:54:49,203 WARN clearConfigHistory start
+
+2019-07-12 17:54:53,114 INFO [capacityManagement] start correct usage
+
+2019-07-12 17:54:53,146 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:04:49,221 WARN clearConfigHistory start
+
+2019-07-12 18:04:53,146 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:04:53,161 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:14:49,241 WARN clearConfigHistory start
+
+2019-07-12 18:14:53,161 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:14:53,192 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:24:49,260 WARN clearConfigHistory start
+
+2019-07-12 18:24:53,192 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:24:53,224 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:34:49,283 WARN clearConfigHistory start
+
+2019-07-12 18:34:53,225 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:34:53,256 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:44:49,302 WARN clearConfigHistory start
+
+2019-07-12 18:44:53,257 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:44:53,290 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 18:54:49,317 WARN clearConfigHistory start
+
+2019-07-12 18:54:53,290 INFO [capacityManagement] start correct usage
+
+2019-07-12 18:54:53,326 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:04:49,338 WARN clearConfigHistory start
+
+2019-07-12 19:04:53,326 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:04:53,362 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:14:49,357 WARN clearConfigHistory start
+
+2019-07-12 19:14:53,362 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:14:53,381 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:24:49,375 WARN clearConfigHistory start
+
+2019-07-12 19:24:53,381 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:24:53,415 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:34:49,386 WARN clearConfigHistory start
+
+2019-07-12 19:34:53,416 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:34:53,453 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:44:49,405 WARN clearConfigHistory start
+
+2019-07-12 19:44:53,453 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:44:53,488 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 19:54:49,425 WARN clearConfigHistory start
+
+2019-07-12 19:54:53,489 INFO [capacityManagement] start correct usage
+
+2019-07-12 19:54:53,527 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:04:49,447 WARN clearConfigHistory start
+
+2019-07-12 20:04:53,527 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:04:53,564 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:14:49,466 WARN clearConfigHistory start
+
+2019-07-12 20:14:53,565 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:14:53,582 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:24:49,474 WARN clearConfigHistory start
+
+2019-07-12 20:24:53,582 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:24:53,617 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:34:49,496 WARN clearConfigHistory start
+
+2019-07-12 20:34:53,618 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:34:53,652 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:44:49,518 WARN clearConfigHistory start
+
+2019-07-12 20:44:53,652 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:44:53,679 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 20:54:49,526 WARN clearConfigHistory start
+
+2019-07-12 20:54:53,679 INFO [capacityManagement] start correct usage
+
+2019-07-12 20:54:53,712 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:04:49,546 WARN clearConfigHistory start
+
+2019-07-12 21:04:53,712 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:04:53,747 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:14:49,566 WARN clearConfigHistory start
+
+2019-07-12 21:14:53,747 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:14:53,762 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:24:49,586 WARN clearConfigHistory start
+
+2019-07-12 21:24:53,762 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:24:53,789 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:34:49,594 WARN clearConfigHistory start
+
+2019-07-12 21:34:53,790 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:34:53,821 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:44:49,605 WARN clearConfigHistory start
+
+2019-07-12 21:44:53,822 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:44:53,834 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 21:54:49,624 WARN clearConfigHistory start
+
+2019-07-12 21:54:53,835 INFO [capacityManagement] start correct usage
+
+2019-07-12 21:54:53,864 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:04:49,645 WARN clearConfigHistory start
+
+2019-07-12 22:04:53,865 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:04:53,900 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:14:49,663 WARN clearConfigHistory start
+
+2019-07-12 22:14:53,901 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:14:53,935 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:24:49,683 WARN clearConfigHistory start
+
+2019-07-12 22:24:53,936 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:24:53,956 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:34:49,701 WARN clearConfigHistory start
+
+2019-07-12 22:34:53,956 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:34:53,996 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:44:49,712 WARN clearConfigHistory start
+
+2019-07-12 22:44:53,996 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:44:54,029 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 22:54:49,733 WARN clearConfigHistory start
+
+2019-07-12 22:54:54,030 INFO [capacityManagement] start correct usage
+
+2019-07-12 22:54:54,067 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:04:49,753 WARN clearConfigHistory start
+
+2019-07-12 23:04:54,068 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:04:54,098 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:14:49,773 WARN clearConfigHistory start
+
+2019-07-12 23:14:54,099 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:14:54,130 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:24:49,792 WARN clearConfigHistory start
+
+2019-07-12 23:24:54,130 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:24:54,143 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:34:49,812 WARN clearConfigHistory start
+
+2019-07-12 23:34:54,144 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:34:54,179 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:44:49,832 WARN clearConfigHistory start
+
+2019-07-12 23:44:54,179 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:44:54,201 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-07-12 23:54:49,852 WARN clearConfigHistory start
+
+2019-07-12 23:54:54,202 INFO [capacityManagement] start correct usage
+
+2019-07-12 23:54:54,237 INFO [capacityManagement] end correct usage, cost: 0s
+

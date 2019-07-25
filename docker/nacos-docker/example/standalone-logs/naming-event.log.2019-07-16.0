@@ -1,0 +1,22 @@
+2019-07-16 13:58:34,723 INFO DEFAULT_GROUP@@cloud-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.242:9777:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-16 13:58:34,755 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cloud-auth, ips: 192.168.2.242:9777_true,
+
+2019-07-16 13:59:15,355 INFO DEFAULT_GROUP@@cloud-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.242:8762:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-16 13:59:15,356 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cloud-admin, ips: 192.168.2.242:8762_true,
+
+2019-07-16 14:00:03,096 INFO DEFAULT_GROUP@@cloud-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.242:8765:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-16 14:00:03,096 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cloud-gateway, ips: 192.168.2.242:8765_true,
+
+2019-07-16 18:14:33,093 INFO DEFAULT_GROUP@@cloud-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.2.242:9777:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-07-16 18:14:33,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cloud-auth, ips: 192.168.2.242:9777_true,
+
+2019-07-16 18:14:58,059 INFO {POS} {IP-DISABLED} valid: 192.168.2.242:9777@DEFAULT@DEFAULT_GROUP@@cloud-auth, region: unknown, msg: client timeout after 15000, last beat: 1563272082050
+
+2019-07-16 18:15:13,238 INFO DEFAULT_GROUP@@cloud-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.2.242:9777:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-07-16 18:15:13,238 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@cloud-auth, ips: 
+
