@@ -3,7 +3,6 @@
     "author" : "po.lu",
     "description" : "notes",
     "language" : "zh-hans",
-    "gitbook" : ">=3.0.0",
     "root": ".",
     "links" : {
         "sidebar" : {
