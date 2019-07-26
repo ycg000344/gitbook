@@ -1,0 +1,7 @@
+.aceCode {
+    font-size: 14px !important;
+}
+
+input[type=checkbox]{
+    margin-left: -2em;
+}

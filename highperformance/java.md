@@ -30,7 +30,7 @@ public class Demo1 {
 
 ### 编译Java文件后查看内容
 
-```shel
+```shell
     javac Demo.java
     javap -v Demo.class > demo.txt
 ```

@@ -1,0 +1,61 @@
+{
+    "title" : "notes",
+    "author" : "po.lu",
+    "description" : "notes",
+    "language" : "zh-hans",
+    "gitbook" : ">=3.0.0",
+    "root": ".",
+    "links" : {
+        "sidebar" : {
+            "Home" : "http://github.com/ycg000344"
+        }
+    },
+    "plugins": [
+        "theme-comscore",
+        "-lunr", "-search", "search-plus",
+        "-highlight","prism","prism-themes",
+        "advanced-emoji",
+        "github",
+        "katex",
+        "splitter",
+        "anchors",
+        "favicon",
+        "ace",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "anchor-navigation-ex",
+        "todo",
+        "alerts"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ],
+            "lang": {
+                "shell": "bash"
+            }
+        },
+        "github": {
+            "url": "https://github.com/ycg000344"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © ycg000344.gitbook.io 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "anchor-navigation-ex": {
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
+    }
+}
