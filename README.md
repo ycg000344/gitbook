@@ -4,9 +4,9 @@
 
 
 
-:smirk:  [Github](ycg000344.github.com) 
+:smirk:  [Github](<https://github.com/ycg000344>) 
 
 
 
-:smirk: [Gitbook](ycg000344.gitbook.io)
+:smirk: [Gitbook](<https://ycg000344.gitbook.io>)
 
