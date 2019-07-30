@@ -1,0 +1,128 @@
+Classfile /D:/study/study-notes/subject-1/chapter-1/Demo1.class
+  Last modified 2019-1-3; size 795 bytes
+  MD5 checksum e4a628b971c32236aec9fb9b2672408d
+  Compiled from "Demo1.java"
+public class com.study.hc.thread.chapter1.thread.Demo1
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #14.#27        // java/lang/Object."<init>":()V
+   #2 = Class              #28            // com/study/hc/thread/chapter1/thread/Demo1
+   #3 = Methodref          #2.#27         // com/study/hc/thread/chapter1/thread/Demo1."<init>":()V
+   #4 = Fieldref           #2.#29         // com/study/hc/thread/chapter1/thread/Demo1.x:I
+   #5 = Methodref          #2.#30         // com/study/hc/thread/chapter1/thread/Demo1.sum:(II)I
+   #6 = Fieldref           #31.#32        // java/lang/System.out:Ljava/io/PrintStream;
+   #7 = Class              #33            // java/lang/StringBuilder
+   #8 = Methodref          #7.#27         // java/lang/StringBuilder."<init>":()V
+   #9 = String             #34            // person age is
+  #10 = Methodref          #7.#35         // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #11 = Methodref          #7.#36         // java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+  #12 = Methodref          #7.#37         // java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #13 = Methodref          #38.#39        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #14 = Class              #40            // java/lang/Object
+  #15 = Utf8               x
+  #16 = Utf8               I
+  #17 = Utf8               <init>
+  #18 = Utf8               ()V
+  #19 = Utf8               Code
+  #20 = Utf8               LineNumberTable
+  #21 = Utf8               sum
+  #22 = Utf8               (II)I
+  #23 = Utf8               main
+  #24 = Utf8               ([Ljava/lang/String;)V
+  #25 = Utf8               SourceFile
+  #26 = Utf8               Demo1.java
+  #27 = NameAndType        #17:#18        // "<init>":()V
+  #28 = Utf8               com/study/hc/thread/chapter1/thread/Demo1
+  #29 = NameAndType        #15:#16        // x:I
+  #30 = NameAndType        #21:#22        // sum:(II)I
+  #31 = Class              #41            // java/lang/System
+  #32 = NameAndType        #42:#43        // out:Ljava/io/PrintStream;
+  #33 = Utf8               java/lang/StringBuilder
+  #34 = Utf8               person age is
+  #35 = NameAndType        #44:#45        // append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #36 = NameAndType        #44:#46        // append:(I)Ljava/lang/StringBuilder;
+  #37 = NameAndType        #47:#48        // toString:()Ljava/lang/String;
+  #38 = Class              #49            // java/io/PrintStream
+  #39 = NameAndType        #50:#51        // println:(Ljava/lang/String;)V
+  #40 = Utf8               java/lang/Object
+  #41 = Utf8               java/lang/System
+  #42 = Utf8               out
+  #43 = Utf8               Ljava/io/PrintStream;
+  #44 = Utf8               append
+  #45 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #46 = Utf8               (I)Ljava/lang/StringBuilder;
+  #47 = Utf8               toString
+  #48 = Utf8               ()Ljava/lang/String;
+  #49 = Utf8               java/io/PrintStream
+  #50 = Utf8               println
+  #51 = Utf8               (Ljava/lang/String;)V
+{
+  public int x;
+    descriptor: I
+    flags: ACC_PUBLIC
+
+  public com.study.hc.thread.chapter1.thread.Demo1();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 6: 0
+
+  public int sum(int, int);
+    descriptor: (II)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=3, args_size=3
+         0: iload_1
+         1: iload_2
+         2: iadd
+         3: ireturn
+      LineNumberTable:
+        line 10: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=4, args_size=1
+         0: new           #2                  // class com/study/hc/thread/chapter1/thread/Demo1
+         3: dup
+         4: invokespecial #3                  // Method "<init>":()V
+         7: astore_1
+         8: aload_1
+         9: iconst_3
+        10: putfield      #4                  // Field x:I
+        13: iconst_2
+        14: istore_2
+        15: aload_1
+        16: aload_1
+        17: getfield      #4                  // Field x:I
+        20: iload_2
+        21: invokevirtual #5                  // Method sum:(II)I
+        24: istore_3
+        25: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        28: new           #7                  // class java/lang/StringBuilder
+        31: dup
+        32: invokespecial #8                  // Method java/lang/StringBuilder."<init>":()V
+        35: ldc           #9                  // String person age is
+        37: invokevirtual #10                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        40: iload_3
+        41: invokevirtual #11                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        44: invokevirtual #12                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        47: invokevirtual #13                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        50: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 8
+        line 16: 13
+        line 17: 15
+        line 18: 25
+        line 19: 50
+}
+SourceFile: "Demo1.java"

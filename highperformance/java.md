@@ -1,8 +1,6 @@
-# Java高性能专题预备
+# Java程序运行原理分析
 
-## Java程序运行原理分析
-
-## Demo
+## source
 
 ```java
 /**
@@ -28,14 +26,14 @@ public class Demo1 {
 }
 ```
 
-### 编译Java文件后查看内容
+## 编译Java文件后查看内容
 
 ```shell
     javac Demo.java
     javap -v Demo.class > demo.txt
 ```
 
-### 默认的构造函数
+## 默认的构造函数
 
 ```java
 public application_1.chapter_00.Demo1();
@@ -88,29 +86,29 @@ public application_1.chapter_00.Demo1();
   #37 = NameAndType        #17:#18        // "<init>":()V
 ```
 
-
-
----
-
-## Java 内存结构
+# Java 内存结构
 
 待去 [oracle](docs.oracle.com) 和 [openjdk](openjdk.com) 获取具体的说明文档 
 
-### 线程共享区
+## 线程共享区
 
-#### 方法区
++ 方法区
++ 堆内存
++ 线程私有区
++ 本地方法栈
++ 虚拟机栈
++ 程序计数器
 
-#### 堆内存
 
-### 线程私有区
+## CPU缓存和内存屏障
 
-#### 本地方法栈
-
-#### 虚拟机栈
-
-#### 程序计数器
-
----
+* CPU缓存 - 多级缓存
+* 缓存同步协议 - MESI协议
+* 最终一致性
+* 运行时指令重排
+* 数据不一致问题
+* 乱序执行 - as-if-serial语义
+* 内存屏障 - 写内存屏障和读内存屏障
 
 ## 线程状态
 
@@ -120,15 +118,13 @@ public application_1.chapter_00.Demo1();
     }
 ```
 
----
-
 ## 线程终止
 
 * stop: 可能会导致线程安全问题,不建议使用
 * interrupt: JDK比较推荐的方式
 * 标志位: 通过判断标志位主动退出线程
 
-### CODE
+### code
 
 ```java
 /**
@@ -155,20 +151,6 @@ public class Demo3 {
     }
 }
 ```
-
----
-
-## CPU缓存和内存屏障
-
-* CPU缓存 - 多级缓存
-* 缓存同步协议 - MESI协议
-* 最终一致性
-* 运行时指令重排
-* 数据不一致问题
-* 乱序执行 - as-if-serial语义
-* 内存屏障 - 写内存屏障和读内存屏障
-
----
 
 ## 线程通信
 
@@ -389,23 +371,20 @@ public class Demo6 {
     }
 }
 ```
+# 线程封闭之ThreadLocal和栈封闭
 
----
-
-## 线程封闭之ThreadLocal和栈封闭
-
-### 线程封闭
+## 线程封闭
 
 就是将不需要在线程间共享的数据封闭在线程中,从而杜绝线程安全问题.
 
 ThreadLocal可以理解为JVM维护了一个Map<Thread,T>,每个线程要用这个T的时候,用当前线程去Map里取.
 
-### 栈封闭
+## 栈封闭
 
 1. 局部变量的固有属性之一就是封闭在线程中
 2. 他们位于执行线程的栈中,其他线程无法访问这个栈
 
-### CODE
+## code
 
 ```java
 /**
@@ -455,11 +434,9 @@ public class Demo7 {
 
 ```
 
----
+# 线程池应用及实现原理剖析
 
-## 线程池应用及实现原理剖析
-
-### CODE
+## code
 
 ```java
 /**

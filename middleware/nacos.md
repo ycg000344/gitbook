@@ -1,5 +1,4 @@
-# Nacos
-
+# quick usage
 > 修改standalone-mysql-study.yaml 数据库ip（mysql主从的ip）
 >
 > <https://github.com/nacos-group/nacos-docker>

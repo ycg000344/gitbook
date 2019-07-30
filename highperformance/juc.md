@@ -1,6 +1,6 @@
 # AQS (AbstractQueuedSynchronizer) 抽象队列同步器
 
-## CODE
+## code
 
 ```java
 /**
@@ -67,8 +67,6 @@ public abstract class MyAqs {
 }
 
 ```
-
----
 
 ## implements
 

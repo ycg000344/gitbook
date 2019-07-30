@@ -1,6 +1,6 @@
-# RabbitMQ
+# quick usage
 
-# single
+## single
 
 > <https://hub.docker.com/_/rabbitmq>
 

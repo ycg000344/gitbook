@@ -1,4 +1,4 @@
-# Sentinel
+# quick usage
 
 > 采用 阿里源码 编译后自制，时刻关注阿里官方提供的docker image
 >

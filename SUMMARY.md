@@ -1,14 +1,6 @@
 # Summary
 * [Introduction](README.md)
 
-## docker
-  
-* [redis](docker/redis.md)
-* [mysql](docker/mysql.md)
-* [rabbitmq](docker/rabbitmq.md)
-* [sentinel](docker/sentinel.md)
-* [nacos](docker/nacos.md)
-  
 ## 算法与数据结构
 
 * [数组](algo/array.md)
@@ -28,8 +20,21 @@
 ## Java 高性能编程
 
 * [Java 基础](highperformance/java.md)
+* [Java 基础(转载)](highperformance/java-basis/README.MD)
 * [线程安全问题](highperformance/threadsafe.md)
+* [线程安全问题(转载)](highperformance/thread-safe/README.MD)
 * [J.U.C并发编程包](highperformance/juc.md)
+* [J.U.C并发编程包(转载)](highperformance/juc/README.MD)
+* [Netty(转载)](highperformance/netty/README.MD)
+* [JVM(转载)](highperformance/jvm-performance/README.MD)
+* [GC(转载)](highperformance/gc/README.MD)
 
-  
+## 中间件
+
++ [activemq](middleware/activemq/README.md)
++ [redis](middleware/redis/README.md)
++ [mysql](middleware/mysql/mysql.md)
++ [rabbitmq](middleware/rabbitmq/rabbitmq.md)
++ [sentinel](middleware/sentinel.md)
++ [nacos](middleware/nacos.md)
 

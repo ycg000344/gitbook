@@ -1,0 +1,95 @@
+# {method} {0x00000000175b3370} 'run' '()V' in 'com/study/volatiletest/VisibilityDemo$1'
+[Entry Point]
+0x00000000030ecc00: int3
+0x00000000030ecc01: data16 data16 nopw 0x0(%rax,%rax,1)
+0x00000000030ecc0c: data16 data16 xchg %ax,%ax
+0x00000000030ecc10: mov %eax,-0x6000(%rsp)
+0x00000000030ecc17: push %rbp
+0x00000000030ecc18: sub $0x40,%rsp
+0x00000000030ecc1c: mov (%rdx),%ebx
+0x00000000030ecc1e: mov 0x8(%rdx),%rbp
+0x00000000030ecc22: mov %rdx,%rcx
+0x00000000030ecc25: movabs $0x5ab38580,%r10
+0x00000000030ecc2f: callq *%r10
+0x00000000030ecc32: test %rbp,%rbp
+0x00000000030ecc35: je L0002
+0x00000000030ecc37: mov 0x8(%rbp),%r11d
+0x00000000030ecc3b: cmp $0x2000c143,%r11d  ;   {metadata('com/study/volatiletest/VisibilityDemo$1')}
+0x00000000030ecc42: jne L0004  ;*aload_0
+                               ; - com.study.volatiletest.VisibilityDemo$1::run@2 (line 19)
+             L0000: mov 0xc(%rbp),%r11d  ;*getfield val$demo1
+                                         ; - com.study.volatiletest.VisibilityDemo$1::run@3 (line 19)
+                                         ; implicit exception: dispatches to 0x00000000030ecc60
+0x00000000030ecc48: movzbl 0xc(%r11),%r11d  ; implicit exception: dispatches to 0x00000000030ecc60
+0x00000000030ecc4d: test %r11d,%r11d
+0x00000000030ecc50: je L0003  ;*goto
+                              ; - com.study.volatiletest.VisibilityDemo$1::run@15 (line 20)
+             L0001: inc %ebx  ; OopMap{rbp=Oop off=84}
+                              ;*goto
+                              ; - com.study.volatiletest.VisibilityDemo$1::run@15 (line 20)
+0x00000000030ecc54: test %eax,-0x28fcc5a(%rip)  # 0x00000000007f0000
+                                                ;*goto
+                                                ; - com.study.volatiletest.VisibilityDemo$1::run@15 (line 20)
+                                                ;   {poll} *** SAFEPOINT POLL ***
+0x00000000030ecc5a: jmp L0001
+             L0002: xor %ebp,%ebp
+0x00000000030ecc5e: jmp L0000
+             L0003: mov $0xffffff86,%edx
+0x00000000030ecc65: mov %ebx,0x20(%rsp)
+0x00000000030ecc69: xchg %ax,%ax
+0x00000000030ecc6b: callq 0x00000000030157a0  ; OopMap{rbp=Oop off=112}
+                                              ;*aload_0
+                                              ; - com.study.volatiletest.VisibilityDemo$1::run@2 (line 19)
+                                              ;   {runtime_call}
+0x00000000030ecc70: int3
+             L0004: mov $0xffffff9d,%edx
+0x00000000030ecc76: mov %ebx,0x20(%rsp)
+0x00000000030ecc7a: nop
+0x00000000030ecc7b: callq 0x00000000030157a0  ; OopMap{rbp=Oop off=128}
+                                              ;*aload_0
+                                              ; - com.study.volatiletest.VisibilityDemo$1::run@2 (line 19)
+                                              ;   {runtime_call}
+0x00000000030ecc80: int3  ;*aload_0
+                          ; - com.study.volatiletest.VisibilityDemo$1::run@2 (line 19)
+0x00000000030ecc81: int3
+0x00000000030ecc82: hlt
+0x00000000030ecc83: hlt
+0x00000000030ecc84: hlt
+0x00000000030ecc85: hlt
+0x00000000030ecc86: hlt
+0x00000000030ecc87: hlt
+0x00000000030ecc88: hlt
+0x00000000030ecc89: hlt
+0x00000000030ecc8a: hlt
+0x00000000030ecc8b: hlt
+0x00000000030ecc8c: hlt
+0x00000000030ecc8d: hlt
+0x00000000030ecc8e: hlt
+0x00000000030ecc8f: hlt
+0x00000000030ecc90: hlt
+0x00000000030ecc91: hlt
+0x00000000030ecc92: hlt
+0x00000000030ecc93: hlt
+0x00000000030ecc94: hlt
+0x00000000030ecc95: hlt
+0x00000000030ecc96: hlt
+0x00000000030ecc97: hlt
+0x00000000030ecc98: hlt
+0x00000000030ecc99: hlt
+0x00000000030ecc9a: hlt
+0x00000000030ecc9b: hlt
+0x00000000030ecc9c: hlt
+0x00000000030ecc9d: hlt
+0x00000000030ecc9e: hlt
+0x00000000030ecc9f: hlt
+[Exception Handler]
+[Stub Code]
+0x00000000030ecca0: jmpq 0x000000000303fee0  ;   {no_reloc}
+[Deopt Handler Code]
+0x00000000030ecca5: callq 0x00000000030eccaa
+0x00000000030eccaa: subq $0x5,(%rsp)
+0x00000000030eccaf: jmpq 0x0000000003017600  ;   {runtime_call}
+0x00000000030eccb4: hlt
+0x00000000030eccb5: hlt
+0x00000000030eccb6: hlt
+0x00000000030eccb7: hlt

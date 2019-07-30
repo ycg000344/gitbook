@@ -1,8 +1,8 @@
-# Mysql
+# quick usage
 
 ## MasterSlave
 
-0. start container
+### start container
 
 ```shell
 # master
@@ -24,7 +24,7 @@ docker run --name mysql-slave \
 -d mysql:5.7
 ```
 
-1. operate
+### operate
 
 ````shell
 # master

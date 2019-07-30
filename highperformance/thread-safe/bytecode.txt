@@ -1,0 +1,12 @@
+ 0: iconst_0        
+ 1: istore_1        
+ 2: aload_0         
+ 3: getfield        #1   // Field val$demo1:Lcom/study/volatiletest/VisibilityDemo;
+ 6: invokestatic    #3   // Method com/study/volatiletest/VisibilityDemo.access$000:(Lcom/study/volatiletest/VisibilityDemo;)Z
+ 9: ifeq            18   
+12: iinc            1, 1 
+15: goto            2    
+18: getstatic       #4   // Field java/lang/System.out:Ljava/io/PrintStream;
+21: iload_1         
+22: invokevirtual   #5   // Method java/io/PrintStream.println:(I)V
+25: return          

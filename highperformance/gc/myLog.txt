@@ -1,0 +1,134 @@
+........[GC (Allocation Failure) [DefNew: 9445K->8823K(20480K), 0.0063140 secs] 9445K->8823K(40960K), 0.0063809 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18239K->9216K(20480K), 0.0073332 secs] 18239K->10870K(40960K), 0.0073839 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+下次GC将回收bigObject:8
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0035206 secs] 20287K->11894K(40960K), 0.0035700 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:8
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0032124 secs] 21311K->12918K(40960K), 0.0032609 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:8
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0031962 secs] 22335K->13943K(40960K), 0.0032463 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:6
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0043143 secs] 23359K->17015K(40960K), 0.0043625 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0038154 secs] 26432K->19063K(40960K), 0.0038639 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0038891 secs] 28480K->21111K(40960K), 0.0039383 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0035840 secs] 30528K->23159K(40960K), 0.0036329 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:6
+.........[GC (Allocation Failure) [DefNew: 18633K->9217K(20480K), 0.0040956 secs] 32576K->26232K(40960K), 0.0041438 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->18633K(20480K), 0.0000243 secs][Tenured: 17015K->20088K(20480K), 0.0064590 secs] 35649K->28280K(40960K), [Metaspace: 2678K->2678K(1056768K)], 0.0065607 secs] [Times: user=0.00 sys=0.02, real=0.01 secs] 
+下次GC将回收bigObject:22
+..........[Full GC (Allocation Failure) [Tenured: 20088K->15991K(20480K), 0.0061252 secs] 38823K->15991K(40960K), [Metaspace: 2678K->2678K(1056768K)], 0.0061896 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+.........[GC (Allocation Failure) [DefNew: 9418K->9216K(20480K), 0.0025229 secs] 25409K->25208K(40960K), 0.0025711 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18634K->9216K(20480K), 0.0030746 secs] 34626K->27256K(40960K), 0.0031340 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18634K->18634K(20480K), 0.0000243 secs][Tenured: 18039K->20087K(20480K), 0.0071817 secs] 36673K->20087K(40960K), [Metaspace: 2679K->2679K(1056768K)], 0.0072763 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:13
+.........[GC (Allocation Failure) [DefNew: 9417K->9417K(20480K), 0.0000252 secs][Tenured: 20087K->15990K(20480K), 0.0064372 secs] 29505K->15990K(40960K), [Metaspace: 2679K->2679K(1056768K)], 0.0065345 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 9416K->9216K(20480K), 0.0025269 secs] 25407K->25207K(40960K), 0.0025745 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->9216K(20480K), 0.0030615 secs] 34624K->27255K(40960K), 0.0031079 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:7
+.........[GC (Allocation Failure) [DefNew: 18633K->18633K(20480K), 0.0000264 secs][Tenured: 18038K->20086K(20480K), 0.0077698 secs] 36672K->22134K(40960K), [Metaspace: 2680K->2680K(1056768K)], 0.0078691 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:13
+................[Full GC (Allocation Failure) [Tenured: 20086K->20087K(20480K), 0.0086397 secs] 38786K->25207K(40960K), [Metaspace: 2681K->2681K(1056768K)], 0.0087156 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:15
+.............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0080501 secs] 38721K->23159K(40960K), [Metaspace: 2688K->2688K(1056768K)], 0.0081179 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:12
+...............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0088074 secs] 38722K->26231K(40960K), [Metaspace: 2696K->2696K(1056768K)], 0.0088745 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:15
+............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0080644 secs] 38723K->23159K(40960K), [Metaspace: 2696K->2696K(1056768K)], 0.0081297 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:11
+...............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0087899 secs] 38723K->27255K(40960K), [Metaspace: 2699K->2699K(1056768K)], 0.0088587 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:14
+...........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0083483 secs] 38724K->24183K(40960K), [Metaspace: 2701K->2701K(1056768K)], 0.0084136 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:10
+..............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0094337 secs] 38724K->28279K(40960K), [Metaspace: 2703K->2703K(1056768K)], 0.0094987 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:14
+..........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0083365 secs] 38724K->24183K(40960K), [Metaspace: 2704K->2704K(1056768K)], 0.0083962 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+..............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0096343 secs] 38724K->29303K(40960K), [Metaspace: 2707K->2707K(1056768K)], 0.0096981 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:14
+.........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0084217 secs] 38724K->24183K(40960K), [Metaspace: 2707K->2707K(1056768K)], 0.0084892 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:8
+..............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0100616 secs] 38722K->30327K(40960K), [Metaspace: 2708K->2708K(1056768K)], 0.0101223 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:13
+........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0086988 secs] 38723K->25207K(40960K), [Metaspace: 2708K->2708K(1056768K)], 0.0087638 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:8
+.............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0087983 secs] 38714K->30327K(40960K), [Metaspace: 2716K->2716K(1056768K)], 0.0088556 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:13
+........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0087109 secs] 38718K->25207K(40960K), [Metaspace: 2717K->2717K(1056768K)], 0.0087843 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:7
+.............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0103621 secs] 38711K->31352K(40960K), [Metaspace: 2717K->2717K(1056768K)], 0.0104289 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:12
+.......[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0079023 secs] 38716K->26231K(40960K), [Metaspace: 2717K->2717K(1056768K)], 0.0079627 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:7
+............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0104112 secs] 38701K->31352K(40960K), [Metaspace: 2717K->2717K(1056768K)], 0.0104778 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:12
+.......[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0089625 secs] 38710K->26231K(40960K), [Metaspace: 2717K->2717K(1056768K)], 0.0090384 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:6
+............[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0104464 secs] 38697K->32376K(40960K), [Metaspace: 2718K->2718K(1056768K)], 0.0105151 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:11
+......[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0078240 secs] 38707K->27255K(40960K), [Metaspace: 2718K->2718K(1056768K)], 0.0078834 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:6
+...........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0105561 secs] 38688K->32376K(40960K), [Metaspace: 2718K->2718K(1056768K)], 0.0106233 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:11
+......[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0091603 secs] 38701K->27255K(40960K), [Metaspace: 2718K->2718K(1056768K)], 0.0092263 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:5
+...........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0106526 secs] 38684K->33400K(40960K), [Metaspace: 2718K->2718K(1056768K)], 0.0107166 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:10
+.....[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0094144 secs] 38699K->28279K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0094776 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:5
+..........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0107776 secs] 38675K->33400K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0108420 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:10
+.....[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0093731 secs] 38692K->28280K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0094347 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:4
+..........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0110687 secs] 38671K->34424K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0111321 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:10
+....[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0095062 secs] 38690K->28279K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0095684 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:4
+..........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0112926 secs] 38661K->34424K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0113557 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+....[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0097855 secs] 38684K->29304K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0098461 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:4
+.........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0112074 secs] 38657K->34424K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0112702 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+....[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0097370 secs] 38680K->29304K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0098172 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:3
+.........[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0054964 secs] 38655K->35448K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0055605 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:9
+...[Full GC (Allocation Failure) [Tenured: 20087K->20087K(20480K), 0.0097547 secs] 38679K->29304K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0098128 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:3
+.........[Full GC (Allocation Failure) [Tenured: 20087K->20075K(20480K), 0.0118114 secs] 38647K->35436K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0118736 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+...[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0098250 secs] 38661K->29292K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0098834 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:2
+.........[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0054625 secs] 38631K->36460K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0055263 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+..[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0097796 secs] 38659K->29292K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0098393 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:1
+.........[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0082594 secs] 38621K->37484K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0083200 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:9
+.[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0099288 secs] 38653K->29292K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0099861 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+下次GC将回收bigObject:1
+.........[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0052967 secs] 38610K->37484K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0053599 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+下次GC将回收bigObject:9
+.[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0097108 secs] 38646K->29292K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0097677 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+.........[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0055123 secs] 38605K->38508K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0055769 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+[Full GC (Allocation Failure) [Tenured: 20075K->20075K(20480K), 0.0027176 secs] 38508K->38508K(40960K), [Metaspace: 2725K->2725K(1056768K)], 0.0027568 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+OutOfMemoryError: 一共创建bigObject:553个,GC次数:60
+总共成功回收bigObject:516,堆中还剩下:37
+Heap
+ def new generation   total 20480K, used 18772K [0x00000000fce00000, 0x00000000fec00000, 0x00000000fec00000)
+  eden space 10240K,  93% used [0x00000000fce00000, 0x00000000fd755290, 0x00000000fd800000)
+  from space 10240K,  90% used [0x00000000fd800000, 0x00000000fe100090, 0x00000000fe200000)
+  to   space 10240K,   0% used [0x00000000fe200000, 0x00000000fe200000, 0x00000000fec00000)
+ tenured generation   total 20480K, used 20075K [0x00000000fec00000, 0x0000000100000000, 0x0000000100000000)
+   the space 20480K,  98% used [0x00000000fec00000, 0x00000000fff9ad18, 0x00000000fff9ae00, 0x0000000100000000)
+ Metaspace       used 2731K, capacity 4490K, committed 4864K, reserved 1056768K
+  class space    used 287K, capacity 386K, committed 512K, reserved 1048576K
