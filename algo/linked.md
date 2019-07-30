@@ -1,9 +1,12 @@
 # 引言
 
 缓存清理策略：
+
 1. 先进先出策略 FIFO（First In，First Out)
 2. 最少使用策略 LFU（Least Frequently Used)
 3. 最近最少使用策略 LRU（Least Recently Used)
+
+
 
 # 与数组比较
 

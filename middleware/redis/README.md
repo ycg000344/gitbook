@@ -10,7 +10,7 @@ redis redis-server --requirepass "redis123456" \
 --appendonly yes
 ```
 
-##redis数据结构和常用命令
+# redis数据结构和常用命令
 
 ## 本节资料
 [Spring Data Redis](https://docs.spring.io/spring-data/redis/docs/2.1.5.RELEASE/reference/html)
