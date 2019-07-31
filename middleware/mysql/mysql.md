@@ -6,22 +6,12 @@
 
 ```shell
 # master
-docker run --name mysql-master \
---privileged=true
--v {docker/host/master/volume}:/var/lib/mysql \
--p 3306:3306 \
--e MYSQL_ROOT_PASSWORD=root \
--d mysql:5.7
+docker run --name mysql-master --privileged=true -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v {docker/host/master/volume}:/var/lib/mysql -d mysql:5.7
 ```
 
 ```shell
 # slave
-docker run --name mysql-slave \
---privileged=true \
--v {docker/host/salve/volume}:/var/lib/mysql \
--p 3307:3306 --link mysql-master:master \
--e MYSQL_ROOT_PASSWORD=root \
--d mysql:5.7
+docker run --name mysql-slave --privileged=true  -p 3307:3306 --link mysql-master:master -e MYSQL_ROOT_PASSWORD=root -v {docker/host/salve/volume}:/var/lib/mysql -d mysql:5.7
 ```
 
 ### operate
