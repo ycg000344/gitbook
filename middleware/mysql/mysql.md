@@ -8,7 +8,6 @@
 
 ```shell
 docker run --name mysql-master --privileged=true -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v {docker/host/master/volume}:/var/lib/mysql -d mysql:5.7
-
 ```
 
 #### slave
