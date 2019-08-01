@@ -17,6 +17,13 @@
 * [图](algo/graph.md)
 * [字符串匹配](algo/stringmatch.md)
 
+## 大话设计模式
+
+* [前言](designpatterns/readme.md)
+* [简单工厂模式](designpatterns/simplefactory/readme.md)
+
+
+
 ## Java 高性能编程
 
 * [Java 基础](highperformance/java.md)
