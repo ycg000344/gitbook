@@ -7,13 +7,13 @@
 #### master
 
 ```shell
-docker run --name mysql-master --privileged=true -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v {docker/host/master/volume}:/var/lib/mysql -d mysql:5.7
+docker run --name mysql-master --privileged=true -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v /tmp/mysql-master:/var/lib/mysql -d ycg000344/mysql-master:5.7
 ```
 
 #### slave
 
 ```shell
-docker run --name mysql-slave --privileged=true  -p 3307:3306 --link mysql-master:master -e MYSQL_ROOT_PASSWORD=root -v {docker/host/salve/volume}:/var/lib/mysql -d mysql:5.7
+docker run --name mysql-slave --privileged=true  -p 3307:3306 --link mysql-master:master -e MYSQL_ROOT_PASSWORD=root -v /tmp/mysql-slave:/var/lib/mysql -d ycg000344/mysql-slave:5.7
 ```
 
 ### operate
