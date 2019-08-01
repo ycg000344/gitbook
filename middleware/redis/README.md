@@ -4,10 +4,7 @@
 ## single
 
 ```shell
-docker run -d --name redis -p 6379:6379 \
--v {docker/host/volume}:/data \
-redis redis-server --requirepass "redis123456" \
---appendonly yes
+docker run -d --name redis -p 6379:6379 -v {docker/host/volume}:/data redis redis-server --requirepass "redis123456" --appendonly yes
 ```
 
 # redis数据结构和常用命令
