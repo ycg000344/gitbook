@@ -21,6 +21,7 @@
 
 * [前言](docs/designpatterns/readme.md)
 * [简单工厂模式](docs/designpatterns/simplefactory/readme.md)
+* [策略模式](docs/designpatterns/strategy/readme.md)
 
 
 
