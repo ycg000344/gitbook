@@ -23,6 +23,7 @@
 * [简单工厂模式](docs/designpatterns/simplefactory/readme.md)
 * [策略模式](docs/designpatterns/strategy/readme.md)
 * [原则](docs/designpatterns/duties/readme.md)
+* [装饰模式](docs/designpatterns/decorator/readme.md)
 
 
 
