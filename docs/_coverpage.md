@@ -10,4 +10,4 @@
 :smirk: [Gitbook](https://ycg000344.gitbook.io)
 
 [GitHub](https://github.com/ycg000344/gitbook.git)
-[Get Started](#README.md)
+[Get Started](README.md)
