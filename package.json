@@ -1,0 +1,44 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "> 笔记型 Repo :sun_with_face: :sun_with_face: :sun_with_face:",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-alerts": "^0.2.0",
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
+    "gitbook-plugin-github": "^2.0.0",
+    "gitbook-plugin-anchor-navigation-ex": "^1.0.14",
+    "gitbook-plugin-favicon": "^0.0.2",
+    "gitbook-plugin-search-plus": "^1.0.3",
+    "gitbook-plugin-splitter": "^0.0.8",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-theme-comscore": "^0.0.3",
+    "gitbook-plugin-katex": "^1.1.4",
+    "gitbook-plugin-tbfed-pagefooter": "^0.0.1",
+    "gitbook-plugin-todo": "^0.1.3",
+    "gitbook-theme-comscore": "^0.0.3",
+    "gitbook-plugin-prism-themes": "^0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "docsify serve docs --port=3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycg000344/gitbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycg000344/gitbook/issues"
+  },
+  "homepage": "https://github.com/ycg000344/gitbook#readme"
+}
