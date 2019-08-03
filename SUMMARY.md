@@ -1,5 +1,5 @@
 # Summary
-* [Introduction](README.md)
+* [Introduction](readme.md)
 
 ## 算法与数据结构
 
@@ -30,19 +30,19 @@
 ## Java 高性能编程
 
 * [Java 基础](docs/highperformance/java.md)
-* [Java 基础(转载)](docs/highperformance/java-basis/README.MD)
+* [Java 基础(转载)](docs/highperformance/java-basis/readme.md)
 * [线程安全问题](docs/highperformance/threadsafe.md)
-* [线程安全问题(转载)](docs/highperformance/thread-safe/README.MD)
+* [线程安全问题(转载)](docs/highperformance/thread-safe/readme.md)
 * [J.U.C并发编程包](docs/highperformance/juc.md)
-* [J.U.C并发编程包(转载)](docs/highperformance/juc/README.MD)
-* [Netty(转载)](docs/highperformance/netty/README.MD)
-* [JVM(转载)](docs/highperformance/jvm-performance/README.MD)
-* [GC(转载)](docs/highperformance/gc/README.MD)
+* [J.U.C并发编程包(转载)](docs/highperformance/juc/readme.md)
+* [Netty(转载)](docs/highperformance/netty/readme.md)
+* [JVM(转载)](docs/highperformance/jvm-performance/readme.md)
+* [GC(转载)](docs/highperformance/gc/readme.md)
 
 ## 中间件
 
-+ [activemq](docs/middleware/activemq/README.md)
-+ [redis](docs/middleware/redis/README.md)
++ [activemq](docs/middleware/activemq/readme.md)
++ [redis](docs/middleware/redis/readme.md)
 + [mysql](docs/middleware/mysql/mysql.md)
 + [rabbitmq](docs/middleware/rabbitmq/rabbitmq.md)
 + [sentinel](docs/middleware/sentinel.md)
