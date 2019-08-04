@@ -25,6 +25,7 @@
 * [原则](docs/designpatterns/duties/readme.md)
 * [装饰模式](docs/designpatterns/decorator/readme.md)
 * [代理模式](docs/designpatterns/proxy/readme.md)
+* [工厂方法模式](docs/designpatterns/factory/readme.md)
 
 
 
