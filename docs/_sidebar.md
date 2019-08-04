@@ -25,6 +25,7 @@
   * [策略模式](designpatterns/strategy/readme.md)
   * [原则](designpatterns/duties/readme.md)
   * [装饰模式](designpatterns/decorator/readme.md)
+  * [代理模式](designpatterns/proxy/readme.md)
 
 
 
