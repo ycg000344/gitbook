@@ -26,6 +26,7 @@
 * [装饰模式](docs/designpatterns/decorator/readme.md)
 * [代理模式](docs/designpatterns/proxy/readme.md)
 * [工厂方法模式](docs/designpatterns/factory/readme.md)
+* [原型模式](docs/designpatterns/prototype/readme.md)
 
 
 
