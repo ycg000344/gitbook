@@ -28,6 +28,7 @@
   * [代理模式](designpatterns/proxy/readme.md)
   * [工厂方法模式](designpatterns/factory/readme.md)
   * [原型模式](designpatterns/prototype/readme.md)
+  * [模板方法模式](designpatterns/template/readme.md)
 
 
 
