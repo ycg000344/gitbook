@@ -29,6 +29,7 @@
   * [工厂方法模式](designpatterns/factory/readme.md)
   * [原型模式](designpatterns/prototype/readme.md)
   * [模板方法模式](designpatterns/template/readme.md)
+  * [外观模式](designpatterns/facade/readme.md)
 
 
 
