@@ -30,6 +30,7 @@
   * [原型模式](designpatterns/prototype/readme.md)
   * [模板方法模式](designpatterns/template/readme.md)
   * [外观模式](designpatterns/facade/readme.md)
+  * [建造者模式](designpatterns/builder/readme.md)
 
 
 

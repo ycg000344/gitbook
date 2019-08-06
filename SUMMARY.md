@@ -1,5 +1,6 @@
 # Summary
-* [Introduction](readme.md)
+
+* [Introduction](README.md)
 
 ## 算法与数据结构
 
@@ -29,6 +30,7 @@
 * [原型模式](docs/designpatterns/prototype/readme.md)
 * [模板方法模式](docs/designpatterns/template/readme.md)
 * [外观模式](docs/designpatterns/facade/readme.md)
+* [建造者模式](docs/designpatterns/builder/readme.md)
 
 
 
