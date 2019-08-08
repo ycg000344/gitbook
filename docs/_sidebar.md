@@ -33,6 +33,7 @@
   * [建造者模式](designpatterns/builder/readme.md)
   * [观察者模式](designpatterns/observer/readme.md)
   * [抽象工厂模式](designpatterns/abstract/readme.md)
+  * [状态模式](designpatterns/state/readme.md)
 
 
 
