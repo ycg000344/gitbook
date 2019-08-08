@@ -28,6 +28,7 @@
   * [外观模式](designpatterns/facade/readme.md)
   * [建造者模式](designpatterns/builder/readme.md)
   * [观察者模式](designpatterns/observer/readme.md)
+  * [抽象工厂模式](designpatterns/abstract/readme.md)
 
 
 
