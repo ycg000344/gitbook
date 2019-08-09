@@ -35,6 +35,7 @@
   * [抽象工厂模式](designpatterns/abstract/readme.md)
   * [状态模式](designpatterns/state/readme.md)
   * [适配器模式](designpatterns/adapter/readme.md)
+  * [备忘录模式](designpatterns/memento/readme.md)
 
 
 
