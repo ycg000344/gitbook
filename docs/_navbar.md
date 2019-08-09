@@ -32,6 +32,7 @@
   * [状态模式](designpatterns/state/readme.md)
   * [适配器模式](designpatterns/adapter/readme.md)
   * [备忘录模式](designpatterns/memento/readme.md)
+  * [组合模式](designpatterns/composite/readme.md)
 
 
 
