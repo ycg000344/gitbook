@@ -54,6 +54,7 @@
   * [Netty(转载)](highperformance/netty/readme.md)
   * [JVM(转载)](highperformance/jvm-performance/readme.md)
   * [GC(转载)](highperformance/gc/readme.md)
+  * [CompletableFuture](highperformance/completablefuture.md)
 
 * 中间件
 
