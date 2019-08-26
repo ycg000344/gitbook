@@ -10,7 +10,7 @@ var tokens []Token
 var token Token
 var tokenText strings.Builder
 
-func tokenize(script string) *SimpleTokenReader {
+func tokenize(script string) TokenReader {
 	if strings.Count(script, "") == 0 {
 		return nil
 	}
@@ -151,7 +151,7 @@ func initToken(ch rune) string {
 	return newSate
 }
 
-func dump(s *SimpleTokenReader) {
+func dump(s TokenReader) {
 	fmt.Println("text \t type.")
 	var token Token
 	for {
