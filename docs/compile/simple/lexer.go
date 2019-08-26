@@ -45,6 +45,34 @@ func tokenize(script string) *SimpleTokenReader {
 			} else {
 				newSate = initToken(ch)
 			}
+		case IDINT1:
+			if ch == 'n' {
+				newSate = IDINT2
+				tokenText.WriteRune(ch)
+			} else if unicode.IsDigit(ch) || unicode.IsLetter(ch) {
+				newSate = ID
+				tokenText.WriteRune(ch)
+			} else {
+				newSate = initToken(ch)
+			}
+		case IDINT2:
+			if ch == 't' {
+				newSate = IDINT3
+				tokenText.WriteRune(ch)
+			} else if unicode.IsDigit(ch) || unicode.IsLetter(ch) {
+				newSate = ID
+				tokenText.WriteRune(ch)
+			} else {
+				newSate = initToken(ch)
+			}
+		case IDINT3:
+			if unicode.IsDigit(ch) || unicode.IsLetter(ch) {
+				newSate = ID
+				tokenText.WriteRune(ch)
+			} else {
+				token.SetTokenType(IDINT3)
+				newSate = initToken(ch)
+			}
 		default:
 			newSate = initToken(ch)
 		}
@@ -70,9 +98,13 @@ func initToken(ch rune) string {
 	}
 	newSate := INITIAL
 	if unicode.IsLetter(ch) {
-		newSate = ID
-		tokenText.WriteRune(ch)
+		if ch == 'i' {
+			newSate = IDINT1
+		} else {
+			newSate = ID
+		}
 		token.SetTokenType(ID)
+		tokenText.WriteRune(ch)
 	} else if unicode.IsDigit(ch) {
 		newSate = INTLITERAL
 		tokenText.WriteRune(ch)
@@ -147,6 +179,9 @@ const (
 	LeftParen  = "LeftParen"  // (
 	RightParen = "RightParen" // )
 	Assignment = "Assignment" // =
+	IDINT1     = "I"          // i
+	IDINT2     = "N"          // n
+	IDINT3     = "INT"        // t
 )
 
 // Token ...
