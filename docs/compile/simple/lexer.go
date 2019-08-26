@@ -242,7 +242,7 @@ func (s *SimpleTokenReader) read() Token {
 }
 
 func (s *SimpleTokenReader) peek() Token {
-	if s.position > len(s.tokens) {
+	if s.position >= len(s.tokens) {
 		return nil
 	}
 	return s.tokens[s.position]
