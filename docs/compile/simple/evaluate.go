@@ -5,9 +5,60 @@ import (
 	"fmt"
 )
 
+// constant
+const (
+	EMPTY = ""
+)
+
+func intDeclare(script string) {
+	tokens := tokenize(script)
+	node, err := intDeclareTokens(tokens)
+	if err == nil {
+		dumpast(node, EMPTY)
+	}
+}
+
+func intDeclareTokens(tokens TokenReader) (node ASTNode, err error) {
+	token := tokens.peek()
+	if token == nil || token.GetTokenType() != IDINT3 {
+		return nil, errors.New("key words error.")
+	}
+	tokens.read() // 消耗 int 关键字
+	token = tokens.peek()
+	if token == nil || token.GetTokenType() != ID {
+		return nil, errors.New("variable name excepted.")
+	}
+	token = tokens.read() // 消耗 标识符
+	result := &SimpleASTNode{
+		nodeType: Identifier,
+		nodeText: token.GetText(),
+	}
+	token = tokens.peek()
+	if token != nil && token.GetTokenType() == Assignment {
+		token = tokens.read() // 消耗 等号
+		child := &SimpleASTNode{
+			nodeType: Assignment,
+			nodeText: token.GetText(),
+		}
+		child1, err := additive(tokens)
+		if err != nil {
+			return nil, err
+		}
+		if child1 == nil {
+			return nil, errors.New("invalide variable initialization,excepting an expression.")
+		}
+		child.addChildren(child1)
+		result.addChildren(child)
+	}
+
+	return result, nil
+}
+
 func evaluate(script string) {
 	tree := parse(script)
-	dumpast(tree, "")
+	fmt.Println("token解析完成，进行打印。")
+	dumpast(tree, EMPTY)
+
 }
 
 func parse(script string) ASTNode {
