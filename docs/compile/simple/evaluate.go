@@ -139,13 +139,53 @@ func prog(tokens TokenReader) ASTNode {
 		nodeText: "Calculator",
 	}
 
-	if children, err := additive(tokens); err == nil {
+	// if children, err := additive(tokens); err == nil {
+	if children, err := additiveNew(tokens); err == nil {
 		astnode.addChildren(children)
 	}
 	return astnode
 }
 
 // additive 加法表达式
+/*
+ * 新的语法规则
+	采用 EBNF 方式表达
+	add  ->  mul (+ mul)*
+*/
+func additiveNew(tokens TokenReader) (s *SimpleASTNode, err error) {
+	child1, err := multiplicative(tokens)
+	if err != nil {
+		return nil, err
+	}
+	node := child1
+	for {
+		token := tokens.peek()
+		if token == nil || (token.GetTokenType() != Plus && token.GetTokenType() != Minus) {
+			break
+		}
+		token = tokens.read()
+		child2, err := multiplicative(tokens)
+		if err != nil {
+			return nil, err
+		}
+		node = &SimpleASTNode{
+			nodeType: Additive,
+			nodeText: token.GetText(),
+		}
+		node.addChildren(child1)
+		node.addChildren(child2)
+		child1 = node
+	}
+	return node, nil
+}
+
+/*
+ * 语法规则：
+	add  ->  mul  |  add + mul
+	mul  ->  pri  |  mul * pri
+	pri  ->  id   |  Num  |  (add)
+	会出先综合性问题
+*/
 func additive(tokens TokenReader) (s *SimpleASTNode, err error) {
 	child1, err := multiplicative(tokens)
 	if err != nil {
