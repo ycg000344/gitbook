@@ -3,6 +3,7 @@ package simple
 import (
 	"errors"
 	"fmt"
+	"strconv"
 )
 
 // constant
@@ -58,7 +59,72 @@ func evaluate(script string) {
 	tree := parse(script)
 	fmt.Println("token解析完成，进行打印。")
 	dumpast(tree, EMPTY)
+	fmt.Println("打印完毕，进行计算。")
+	calculator(tree, EMPTY)
+}
 
+func calculator(node ASTNode, indent string) (num int, err error) {
+	result := 0
+	fmt.Println(indent + "Calculatoring：" + node.getType())
+	switch node.getType() {
+	case Programm:
+		child := node.getChildren()
+		for _, c := range child {
+			res, err := calculator(c, indent+"\t")
+			if err != nil {
+				return 0, err
+			}
+			result += res
+		}
+	case Additive:
+		child0 := node.getChildren()[0]
+		valule0 := 0
+		if res, err := calculator(child0, indent+"\t"); err == nil {
+			valule0 = res
+		} else {
+			return 0, err
+		}
+		child1 := node.getChildren()[1]
+		valule1 := 0
+		if res, err := calculator(child1, indent+"\t"); err == nil {
+			valule1 = res
+		} else {
+			return 0, err
+		}
+		if node.getText() == "+" {
+			result = valule0 + valule1
+		} else {
+			result = valule0 - valule1
+		}
+	case Multiplicative:
+		child0 := node.getChildren()[0]
+		valule0 := 0
+		if res, err := calculator(child0, indent+"\t"); err == nil {
+			valule0 = res
+		} else {
+			return 0, err
+		}
+		child1 := node.getChildren()[1]
+		valule1 := 0
+		if res, err := calculator(child1, indent+"\t"); err == nil {
+			valule1 = res
+		} else {
+			return 0, err
+		}
+		if node.getText() == "*" {
+			result = valule0 * valule1
+		} else {
+			result = valule0 / valule1
+		}
+	case INTLITERAL:
+		if res, err := strconv.Atoi(node.getText()); err == nil {
+			result = res
+		} else {
+			return 0, err
+		}
+	}
+	fmt.Printf("%s Result：%d. \n", indent, result)
+	return result, nil
 }
 
 func parse(script string) ASTNode {
