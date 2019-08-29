@@ -15,6 +15,22 @@ SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...
 FROM > WHERE > GROUP BY > HAVING > SELECT 的字段 > DISTINCT > ORDER BY > LIMIT
 ```
 
+# IN 和 EXISTS
+
+```sql
+Select * FROM A WHERE cc in (Select cc FROM B)
+
+Select * FROM A WHERE EXISTS (Select cc FROM B where B.cc = A.cc)
+```
+
+在对cc列建立索引的情况下，<br>
+表A > 表B, `IN` 子查询的效率高，因为采用的是表B的索引。<br>
+表A < 表B,`EXISTS` 子查询的效率高。
+
+## 总结
+当查询字段进行了索引时，主表A 大于从表B，使用 IN 子查询的效率高，相反主表A 小于 从表A时，使用 EXISTS 子查询的效率高。
+
+
 # 索引的概览
 
 ## 什么情况下创建索引，什么时候不需要索引？
@@ -247,4 +263,61 @@ update set version=version+1 where version=#{version}
 ```
 
 
+
+# 通过 MVCC 机制解决不可重复读和幻读问题
+
+## MVCC
+
+Multiversion Concurrency Control ，中文翻译为 多版本并发控制技术。
+
+## Read View
+
+在 MVCC 机制中，多个事务对同一个行记录进行更新会产生多个历史快照，这些历史快照保存在 Undo Log里。如果一个事务想要查询这个行记录，需要读取哪个版本的行记录呢？这时就需要用到 Read VIew了，它帮我们解决了行的可见性问题。
+
+Read View保存了当前事务开启时所有活跃（还没有提交）的事务列表， Read View保存了不应该让这个事务看到的其他的事务ID列表。
+
+在 Read View 中有几个重要的属性：
+
+1. trx_ids，系统当前正在活跃的事务ID集合
+2. low_limit_id，活跃的事务中最大的事务ID
+3. up_limit_id，活跃的事务中最小的事务ID
+4. creator_trx_id，创建这个 Read View 的事务ID
+
+如图所示， trx_ids为 trx2、trx3、trx5、trx8的集合，活跃的最大事务ID=trx8，活跃的最小的事务ID= trx2。
+
+![readview](readview.png)
+
+
+
+假设当前有事务 creator_trx_id想要读取取个行记录，这个行记录的事务ID为 trx_id,那么会出现的情况有：
+
+1. 如果 trx_id < 最小的事务ID（up_limit_id）,也就是说这个行记录在这些活跃的事务创建之前就已经提交了，那么这个行记录对该事务是可见的。
+2. 如果trx_id > 最大的事务ID，说明该行记录在这个活跃的事务创建之后才创建，那么这个行记录对当前事务不可见。
+3. 如果 最小 < trx_id < 最大，说明该行记录所在的事务 trx_id 在目前 creator_trx_id这个事务创建的时候，可能还处于活跃的状态，因此需要在 trx_ids中进行遍历，如果 trx_id 存在于 trx_ids中，说明这个事务trx_id还处于活跃状态，不可见。否则，如果 trx_id不存在于 trx_ids，证明 trx_id已经提交了，该行记录可见。
+
+## InnoDB 如何解决幻读
+
+InnoDB三种行锁的方式：
+
+1. 记录锁：针对单个行记录添加锁
+2. 间隙锁：锁定一个范围，但不包括记录本事，采用间隙锁的方式可以防止幻读情况的产生
+3. Next-Key锁：锁定一个范围，同时锁定记录本身，相当于间隙锁+记录锁，可以解决幻读的问题。
+
+# 查询优化器
+
+## RBO
+
+Rule-Based Optimizer，基于规则的优化器,规则就是人们以往的经验，或者是采用已经被证明是有效的方式。
+
+## CBO
+
+Cost-Based Optimizer，基于代价的优化器，这里会根据代价评估模型，计算每条可能的执行计划的代价，从中选择代价最小的作为执行计划。
+
+## 特点
+
+RBO，基于规则，每条sql经过RBO优化出来的结果都是固定的。
+
+CBO，基于代价，根据统计信息，配置参数，优化器参数，sql经过优化出来的结果不是固定的，类似利用统计学得到最佳的优化结果。
+
+CBO比较复杂，任何一个参数没有调好，可能优化结果都不理想，还有统计信息的准确度，如果要很高的准确度，那么维护准确度的代价也是很大的。
 
