@@ -1,4 +1,4 @@
-> [ycg00344.github.com]()
+> [ycg00344.github.com](https://github.com/ycg000344/gitbook/tree/master/docs/middleware/rabbitmq)
 
 ## rabbitmq cluster + HA proxy
 
