@@ -1,0 +1,92 @@
+version: "3.7"
+
+networks: 
+    nats-embeds:
+
+volumes:
+    embeds-data-1:
+    embeds-data-2:
+    embeds-data-3:
+
+services: 
+
+    embeds-1: 
+        image: nats-streaming
+        hostname: embeds-1
+        container_name: embeds-1
+        restart: on-failure
+        networks: 
+            - nats-embeds
+        volumes: 
+            - embeds-data-1:/data
+            - ./embeds-1.conf:/embeds-1.conf
+        ports: 
+            - ${CLIENT_PORT_1}:4222
+        command: 
+            - "-sc"
+            - "/embeds-1.conf"
+
+    embeds-2: 
+        image: nats-streaming
+        hostname: embeds-2
+        container_name: embeds-2
+        restart: on-failure
+        networks: 
+            - nats-embeds
+        volumes: 
+            - embeds-data-2:/data
+            - ./embeds-2.conf:/embeds-2.conf
+        ports: 
+            - ${CLIENT_PORT_2}:4222
+        command: 
+            - "-sc"
+            - "/embeds-2.conf"
+
+    embeds-3: 
+        image: nats-streaming
+        hostname: embeds-3
+        container_name: embeds-3
+        restart: on-failure
+        networks: 
+            - nats-embeds
+        volumes: 
+            - embeds-data-3:/data
+            - ./embeds-3.conf:/embeds-3.conf
+        ports: 
+            - ${CLIENT_PORT_3}:4222
+        command: 
+            - "-sc"
+            - "/embeds-3.conf"
+
+    integrated-monitor: 
+        image: ycg000344/prometheus-nats-exporter:0.6.0
+        container_name: integrated-monitor
+        hostname: integrated-monitor
+        restart: on-failure
+        networks: 
+            - nats-embeds
+        depends_on: 
+            - embeds-1
+            - embeds-2
+            - embeds-3
+        volumes: 
+            - ./start_monitor.sh:/start_monitor.sh
+
+    prometheus:
+        image: prom/prometheus
+        container_name: prometheus
+        hostname: prometheus
+        restart: on-failure
+        networks: 
+            - nats-embeds
+        depends_on: 
+            - integrated-monitor
+        ports: 
+            - ${NATS_PROMETHEUS_PORT}:9090
+        volumes: 
+            - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+
+
+        
+        

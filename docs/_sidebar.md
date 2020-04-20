@@ -18,7 +18,7 @@
   * [图](algo/graph.md)
   * [字符串匹配](algo/stringmatch.md)
 
-* 大话设计模式
+* 设计模式
 
   * [前言](designpatterns/readme.md)
   * [原则](designpatterns/duties/readme.md)
@@ -39,15 +39,7 @@
   * [组合模式](designpatterns/composite/readme.md)
   * [单例模式](designpatterns/singleton/readme.md)
 
-* SQL 从入门到删库跑路
-
-  * [摘抄](sql/sqlmustknow/readme.md)
-
-* ES 从入门到头秃
-  * [摘抄](elasticsearch/readme.md)
-  * [docker](elasticsearch/readme.md#docker)
-
-* Java 高性能编程
+* java
 
   * [Java 基础](highperformance/java.md)
   * [Java 基础(转载)](highperformance/java-basis/readme.md)
@@ -60,7 +52,18 @@
   * [GC(转载)](highperformance/gc/readme.md)
   * [CompletableFuture](highperformance/completablefuture.md)
 
-* 中间件
+* golang
+  * [交叉编译](golang/build.md)
+
+* sql
+
+  * [摘抄](sql/sqlmustknow/readme.md)
+
+* elasticsearch
+
+  * [摘抄](elasticsearch/readme.md)
+
+* docker
 
   + [activemq](middleware/activemq/readme.md)
   + [redis](middleware/redis/readme.md)
@@ -68,4 +71,7 @@
   + [rabbitmq](middleware/rabbitmq/rabbitmq.md)
   + [sentinel](middleware/sentinel.md)
   + [nacos](middleware/nacos.md)
+  + [etcd](middleware/etcd/readme.md)
+  + [grafana](middleware/grafana/readme.md)
+  + [elasticsesrch](elasticsearch/readme.md#docker)
 

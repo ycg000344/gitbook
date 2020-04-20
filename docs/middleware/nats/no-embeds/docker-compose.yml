@@ -1,0 +1,145 @@
+version: "3.7"
+
+networks: 
+    nats-net:
+
+volumes: 
+    nats-streaming-data-1:
+    nats-streaming-data-2:
+    nats-streaming-data-3:
+
+services: 
+    
+    nats1: 
+        image: nats
+        container_name: nats1
+        hostname: nats1
+        restart: on-failure
+        networks: 
+            - nats-net
+        ports: 
+            - "8201:8222"
+            - "4201:4222"
+        
+    nats2: 
+        image: nats
+        container_name: nats2
+        hostname: nats2
+        restart: on-failure
+        networks: 
+            - nats-net
+        command: 
+            - "-cluster"
+            - "nats://0.0.0.0:6222"
+            - "-routes"
+            - "nats://ruser:T0pS3cr3t@nats1:6222"
+        depends_on: 
+            - nats1
+        ports: 
+            - "8202:8222"
+            - "4202:4222"
+
+    nats3: 
+        image: nats
+        container_name: nats3
+        hostname: nats3
+        restart: on-failure
+        networks: 
+            - nats-net
+        command: 
+            - "-cluster"
+            - "nats://0.0.0.0:6222"
+            - "-routes"
+            - "nats://ruser:T0pS3cr3t@nats1:6222"
+        depends_on: 
+            - nats1
+        ports: 
+            - "8203:8222"
+            - "4203:4222"
+    
+    nats-streaming-1: 
+        image: nats-streaming
+        hostname: nats-streaming-1
+        container_name: nats-streaming-1
+        restart: on-failure
+        networks: 
+            - nats-net
+        volumes: 
+            - nats-streaming-data-1:/data
+        depends_on: 
+            - nats1
+            - nats2
+            - nats3
+        ports: 
+            - "8301:8222"
+        command: 
+            - "-store"
+            - "file"
+            - "-dir"
+            - "/data/store-1"
+            - "-clustered"
+            - "-cluster_bootstrap"
+            - "-cluster_id"
+            - "nats-streaming-cluster"
+            - "-nats_server"
+            - "nats://nats1:4222,nats://nats2:4222,nats://nats3:4222"
+            - "-cluster_log_path"
+            - "/data/log"
+            - "-m"
+            - "8222"
+
+    nats-streaming-2: 
+        image: nats-streaming
+        hostname: nats-streaming-2
+        container_name: nats-streaming-2
+        restart: on-failure
+        networks: 
+            - nats-net
+        volumes: 
+            - nats-streaming-data-2:/data
+        depends_on: 
+            - nats-streaming-1
+        ports: 
+            - "8302:8222"
+        command: 
+            - "-store"
+            - "file"
+            - "-dir"
+            - "/data/store-2"
+            - "-clustered"
+            - "-cluster_id"
+            - "nats-streaming-cluster"
+            - "-nats_server"
+            - "nats://nats1:4222,nats://nats2:4222,nats://nats3:4222"
+            - "-cluster_log_path"
+            - "/data/log"
+            - "-m"
+            - "8222"
+
+    nats-streaming-3: 
+        image: nats-streaming
+        hostname: nats-streaming-3
+        container_name: nats-streaming-3
+        restart: on-failure
+        networks: 
+            - nats-net
+        volumes: 
+            - nats-streaming-data-3:/data
+        depends_on: 
+            - nats-streaming-1
+        ports: 
+            - "8303:8222"
+        command: 
+            - "-store"
+            - "file"
+            - "-dir"
+            - "/data/stor-3"
+            - "-clustered"
+            - "-cluster_id"
+            - "nats-streaming-cluster"
+            - "-nats_server"
+            - "nats://nats1:4222,nats://nats2:4222,nats://nats3:4222"
+            - "-cluster_log_path"
+            - "/data/log"
+            - "-m"
+            - "8222"
