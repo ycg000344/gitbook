@@ -1,7 +1,7 @@
 * 基础
 
-  * [数据结构](algo/array.md)
-  * [设计模式](designpatterns/simplefactory/readme.md)
+  * [数据结构](algo/readme.md)
+  * [设计模式](designpatterns/readme.md)
 
 * 语言
   * [sql](sql/sqlmustknow/readme.md)

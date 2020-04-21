@@ -39,3 +39,22 @@
 ### 依赖
 
 虚线箭头
+
+## 模式
+
+* [简单工厂模式](designpatterns/simplefactory/readme.md)
+* [策略模式](designpatterns/strategy/readme.md)
+* [装饰模式](designpatterns/decorator/readme.md)
+* [代理模式](designpatterns/proxy/readme.md)
+* [工厂方法模式](designpatterns/factory/readme.md)
+* [原型模式](designpatterns/prototype/readme.md)
+* [模板方法模式](designpatterns/template/readme.md)
+* [外观模式](designpatterns/facade/readme.md)
+* [建造者模式](designpatterns/builder/readme.md)
+* [观察者模式](designpatterns/observer/readme.md)
+* [抽象工厂模式](designpatterns/abstract/readme.md)
+* [状态模式](designpatterns/state/readme.md)
+* [适配器模式](designpatterns/adapter/readme.md)
+* [备忘录模式](designpatterns/memento/readme.md)
+* [组合模式](designpatterns/composite/readme.md)
+* [单例模式](designpatterns/singleton/readme.md)
