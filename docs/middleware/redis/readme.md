@@ -180,6 +180,8 @@ appendonly yes
 
 * AOF策略调整
 
+
+
 ```
 #每次有数据修改发生时都会写入AOF文件
 appendfsync always
