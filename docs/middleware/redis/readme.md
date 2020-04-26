@@ -179,6 +179,7 @@ appendonly yes
 ```
 
 * AOF策略调整
+
 ```
 #每次有数据修改发生时都会写入AOF文件
 appendfsync always
@@ -216,6 +217,7 @@ maxmemory-policy 到达阈值的执行策略
 ```
 
 ## 内存压缩
+
 ```
 #配置字段最多512个
 hash-max-zipmap-entries 512
@@ -232,7 +234,6 @@ set-max-intset-entries 512
 zset-max-ziplist-entries 128
 #配置va山e最大为64字节
 zset-max-ziplist-value 64
-
 ```
 
 ## 过期数据的处理策略
