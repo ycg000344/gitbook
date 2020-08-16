@@ -2,6 +2,13 @@
 
 * [Introduction](README.md)
 
+### 未归档
+  
+* [golang 交叉编译](docs/golang/build.md)
+* [sql 摘抄](docs/sql/sqlmustknow/readme.md)
+* [es 摘抄](docs/elasticsearch/readme.md)
+* [wsl2](docs/unarchived/win10_wsl2.md)
+
 ### 算法与数据结构
 
 * [数组](docs/algo/array.md)
@@ -18,7 +25,7 @@
 * [图](docs/algo/graph.md)
 * [字符串匹配](docs/algo/stringmatch.md)
 
-## 设计模式
+### 设计模式
 
 * [前言](docs/designpatterns/readme.md)
 * [原则](docs/designpatterns/duties/readme.md)
@@ -39,7 +46,7 @@
 * [组合模式](docs/designpatterns/composite/readme.md)
 * [单例模式](docs/designpatterns/singleton/readme.md)
 
-## java
+### java
 
 * [Java 基础](docs/highperformance/java.md)
 * [Java 基础(转载)](docs/highperformance/java-basis/readme.md)
@@ -52,19 +59,7 @@
 * [GC(转载)](docs/highperformance/gc/readme.md)
 * [CompletableFuture](docs/highperformance/completablefuture.md)
 
-## golang
-
- * [交叉编译md](docs/golang/build.md)
-
-## sql
-
-* [摘抄](docs/sql/sqlmustknow/readme.md)
-
-## easticsearch
-
-* [摘抄](docs/elasticsearch/readme.md)
-
-## docker
+### docker
 
 + [activemq](docs/middleware/activemq/readme.md)
 + [redis](docs/middleware/redis/readme.md)

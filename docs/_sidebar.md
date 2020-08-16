@@ -2,6 +2,13 @@
 
     * [Introduction](readme.md)
 
+* 未归档
+  
+   * [golang 交叉编译](golang/build.md)
+   * [sql 摘抄](sql/sqlmustknow/readme.md)
+   * [es 摘抄](elasticsearch/readme.md)
+   * [wsl2](unarchived/win10_wsl2.md)
+
 * 算法与数据结构
 
   * [数组](algo/array.md)
@@ -52,16 +59,6 @@
   * [GC(转载)](highperformance/gc/readme.md)
   * [CompletableFuture](highperformance/completablefuture.md)
 
-* golang
-  * [交叉编译](golang/build.md)
-
-* sql
-
-  * [摘抄](sql/sqlmustknow/readme.md)
-
-* elasticsearch
-
-  * [摘抄](elasticsearch/readme.md)
 
 * docker
 
@@ -74,4 +71,5 @@
   + [etcd](middleware/etcd/readme.md)
   + [grafana](middleware/grafana/readme.md)
   + [elasticsesrch](elasticsearch/readme.md#docker)
+
 
